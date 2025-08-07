@@ -34,25 +34,6 @@ def call_get_request(endpoint):
         retries += 1
         print(f"\nRetry {retries}/{max_retries}: Error {response.status_code}, retrying...")
 
-def read_manifest(manifest_filepath):
-    data = []
-    try:
-        f = open(manifest_filepath, 'r', encoding='utf-8')
-    except:
-        raise Exception(f"Manifest file could not be opened: {manifest_filepath}")
-    for line in f:
-        item = json.loads(line)
-        data.append(item)
-    f.close()
-    return data
-
-def write_manifest(manifest_filepath, data, ensure_ascii: bool = False):
-    f = open(manifest_filepath, "w", encoding="utf-8")
-    for item in data:
-        f.write(json.dumps(item,ensure_ascii=ensure_ascii) + "\n")
-    f.close()
-    print("End Writing manifest:", manifest_filepath)
-
 ####################################################################################################
 #########################################  GET - FUNCTIONS  ########################################
 ####################################################################################################
@@ -92,7 +73,9 @@ def get_top_pools_info(network, dex, top_pools_info=None, sort: str="default"):
         new_top_pools_info = [pool for pool in pools_info if pool not in top_pools_info]
         top_pools_info.extend(new_top_pools_info)
         top_pools_info = sorted(top_pools_info, key=lambda x: x["name"])
-    write_manifest("./metadata/pools/top_pools_info.json", top_pools_info)
+    with open("./metadata/pools/top_pools_info.json", "w", encoding="utf-8") as f:
+        for item in top_pools_info:
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
     return top_pools_info
 
 def get_dune_query_data(dune_api_key, query_id, top_pools_info):
@@ -136,10 +119,12 @@ def get_dune_query_data(dune_api_key, query_id, top_pools_info):
             available_pools+=1
             top_pools_info[i]["tvl_history_available"] = True
     print(f"TVL data available for {available_pools}/{len(top_pools_info)} pools")
-    write_manifest("./metadata/pools/top_pools_info.json", top_pools_info)
+    with open("./metadata/pools/top_pools_info.json", "w", encoding="utf-8") as f:
+        for item in top_pools_info:
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
     return query_data_dict, top_pools_info
 
-def get_ohlcv_data(pool_info, before_timestamp, limit: int=1000, timeframe: str="day", currency: str="usd"):
+def get_ohlcv_info(pool_info, before_timestamp, limit: int=1000, timeframe: str="day", currency: str="usd"):
     # Get the ohlcv data for a given pool
     # timeframe = day, hour
     # currency = usd, token
@@ -169,11 +154,29 @@ def get_tvl_info(top_pools_info):
 
 def create_pool_metadata(pool_info, query_data_dict, utc_now):
     # Creates the pool metadata on "pool_dayhour_metadata.json" format
+    # If the .json already exists, updates the missing data
     # Get pool meta and data for day format before the actual day
     utc_midnight = datetime(utc_now.year, utc_now.month, utc_now.day, 0, 0, 0, tzinfo=timezone.utc)
     timestamp = int(utc_midnight.timestamp())
-    response_data_usd = get_ohlcv_data(pool_info, before_timestamp=timestamp, currency="usd")
-    response_data_token = get_ohlcv_data(pool_info, before_timestamp=timestamp, currency="token")
+    json_filepath = f"./metadata/pools/pools_metadata/{pool_info['address']}.json"
+
+    if os.path.exists(json_filepath):
+        print(f"Updating metadata for pool {pool_info['name']} ({pool_info['address']})")
+        with open(json_filepath, "r", encoding="utf-8") as json_infile:
+            metadata = json.load(json_infile)
+        utc_metadata_last_update = datetime.fromtimestamp(metadata["meta"]["metadata_last_update"][0], tz=timezone.utc)
+        if utc_metadata_last_update >= utc_midnight:
+            print(f"Pool {pool_info['name']} ({pool_info['address']}) metadata is already up to date.")
+            return
+        timediff = utc_now - utc_metadata_last_update
+        limit_days = timediff.days - 1
+    else:
+        print(f"Creating metadata for pool {pool_info['name']} ({pool_info['address']})")
+        limit_days = 1000
+
+    # Calls for getting the days data
+    response_data_usd = get_ohlcv_info(pool_info, limit=limit_days, before_timestamp=timestamp, currency="usd")
+    response_data_token = get_ohlcv_info(pool_info, limit=limit_days, before_timestamp=timestamp, currency="token")
     meta = {
         "pool_address": pool_info["address"],      # the pool's address
         "name": pool_info["name"],                 # the pool's name
@@ -209,13 +212,14 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
             "hour_data": []
         }
         data.append(day_item)
-    # Here we make the calls for getting the hour data
+
+    # Calls for getting the hours data
     hours = len(data)*24
     limit_batch = [1000] * (hours // 1000) + ([hours % 1000] if hours % 1000 else [])
     data_dict = {item["epoch"][1][:10]: item for item in data} # An intermediate dict sorted by epoch str for faster search
     for limit in limit_batch:
-        response_data_usd = get_ohlcv_data(pool_info, limit=limit, before_timestamp=timestamp, timeframe="hour", currency="usd")
-        response_data_token = get_ohlcv_data(pool_info, limit=limit, before_timestamp=timestamp, timeframe="hour", currency="token")
+        response_data_usd = get_ohlcv_info(pool_info, limit=limit, before_timestamp=timestamp, timeframe="hour", currency="usd")
+        response_data_token = get_ohlcv_info(pool_info, limit=limit, before_timestamp=timestamp, timeframe="hour", currency="token")
         if not response_data_usd == None:
             for i, ohlcv_usd_entry in enumerate(response_data_usd["data"]["attributes"]["ohlcv_list"]):
                 ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][i]
@@ -231,17 +235,29 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
                 if day_item := data_dict.get(epoch.strftime("%Y-%m-%d")):
                     day_item["hour_data"].append(hour_item) # day_data_dict elements point to the actual day_data elements, so the day_items modify the actual value of the original list
             timestamp = hour_item["epoch"][0]
-    # Writes the metadata in a .json file
-    metadata = {"meta": meta, "data": data}
-    with open(f"./metadata/pools/pools_metadata/{pool_info['address']}.json", "w", encoding="utf-8") as json_file:
-        json.dump(metadata, json_file, ensure_ascii=False)
 
-def update_pool_metadata(pool_info, utc_now, pools_tvl_info):
-    # Updates the ohlcv and tvl data for existing and available pools
+    if os.path.exists(json_filepath):
+        data.extend(metadata["data"])
+        metadata["data"] = data
+        metadata["meta"]["metadata_last_update"] = [int(utc_now.timestamp()), utc_now.strftime('%Y-%m-%dT%H:%M:%SZ')]
+    else:
+        metadata = {"meta": meta, "data": data}
+
+    with open(json_filepath, "w", encoding="utf-8") as json_file:
+        json.dump(metadata, json_file, ensure_ascii=False)
+  
+def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
+    # Updates the ohlcv and tvl data for existing and available pools, for the past day
     utc_midnight = datetime(utc_now.year, utc_now.month, utc_now.day, 0, 0, 0, tzinfo=timezone.utc)
     timestamp = int(utc_midnight.timestamp())
-    response_data_usd = get_ohlcv_data(pool_info, limit=1, before_timestamp=timestamp, currency="usd")
-    response_data_token = get_ohlcv_data(pool_info, limit=1, before_timestamp=timestamp, currency="token")
+    json_filepath = f"./metadata/pools/pools_metadata/{pool_info['address']}.json"
+    print(f"Updating daily metadata for pool {pool_info['name']} ({pool_info['address']})")
+    with open(json_filepath, "r", encoding="utf-8") as json_infile:
+        metadata = json.load(json_infile)
+
+    # Calls for getting the day data
+    response_data_usd = get_ohlcv_info(pool_info, limit=1, before_timestamp=timestamp, currency="usd")
+    response_data_token = get_ohlcv_info(pool_info, limit=1, before_timestamp=timestamp, currency="token")
     ohlcv_usd_entry = response_data_usd["data"]["attributes"]["ohlcv_list"][0]
     ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][0]
     epoch = datetime.fromtimestamp(ohlcv_usd_entry[0], tz=timezone.utc)
@@ -255,8 +271,10 @@ def update_pool_metadata(pool_info, utc_now, pools_tvl_info):
         "volume": ohlcv_usd_entry[5],
         "hour_data": []
     }
-    response_data_usd = get_ohlcv_data(pool_info, limit=24, before_timestamp=timestamp, timeframe="hour", currency="usd")
-    response_data_token = get_ohlcv_data(pool_info, limit=24, before_timestamp=timestamp, timeframe="hour", currency="token")
+
+    # Calls for getting the hours data
+    response_data_usd = get_ohlcv_info(pool_info, limit=24, before_timestamp=timestamp, timeframe="hour", currency="usd")
+    response_data_token = get_ohlcv_info(pool_info, limit=24, before_timestamp=timestamp, timeframe="hour", currency="token")
     for i, ohlcv_usd_entry in enumerate(response_data_usd["data"]["attributes"]["ohlcv_list"]):
         ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][i]
         epoch = datetime.fromtimestamp(ohlcv_usd_entry[0], tz=timezone.utc)
@@ -269,51 +287,45 @@ def update_pool_metadata(pool_info, utc_now, pools_tvl_info):
             "volume": ohlcv_usd_entry[5]
         }
         day_item["hour_data"].append(hour_item)
-    with open(f"./metadata/pools/pools_metadata/{pool_info['address']}.json", "r", encoding="utf-8") as json_infile:
-        metadata = json.load(json_infile)
+    
     metadata["meta"]["metadata_last_update"] = [int(utc_now.timestamp()), utc_now.strftime('%Y-%m-%dT%H:%M:%SZ')]
     metadata["data"].insert(0,day_item)
-    with open(f"./metadata/pools/pools_metadata/{pool_info['address']}.json", "w", encoding="utf-8") as json_outfile:
+    with open(json_filepath, "w", encoding="utf-8") as json_outfile:
         json.dump(metadata, json_outfile, ensure_ascii=False)
-
 
 ####################################################################################################
 ##############################################  MAIN  ##############################################
 ####################################################################################################
 
-def pools_creation():
-    dune_api_key = "502xHDVoBVWUfxoPlPsLNjCuuv1gS72e"
+def pools_creation(network, dex):
+    with open("./metadata/keys/dune_api_key", "r", encoding="utf-8") as f:
+        dune_api_key = f.read().strip()
     utc_now = datetime.now(timezone.utc)
-    network = "solana"
-    dex = "orca"
     query_id = 4516255
     if not os.path.exists("./metadata/pools/top_pools_info.json"):
         top_pools_info = None
     else:
-        top_pools_info = read_manifest("./metadata/pools/top_pools_info.json")
+        with open("./metadata/pools/top_pools_info.json", "r", encoding="utf-8") as f:
+            top_pools_info = [json.loads(line) for line in f]
 
     top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info)
     top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_volume_usd_desc")
     top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_tx_count_desc")
     query_data_dict, top_pools_info = get_dune_query_data(dune_api_key, query_id, top_pools_info)
     for pool_info in tqdm(top_pools_info):
-        if not os.path.exists(f"./metadata/pools/pools_metadata/{pool_info['address']}.json"):
-            if pool_info["tvl_history_available"]:
-                create_pool_metadata(pool_info, query_data_dict, utc_now)
-            else:
-                print("TVL history not available for pool:", pool_info["name"], pool_info["address"])
+        if pool_info["tvl_history_available"]:
+            create_pool_metadata(pool_info, query_data_dict, utc_now)
         else:
-            print(f"File already exists: ./metadata/pools/pools_metadata/{pool_info['address']}.json")
-    print("--END of main()--")
+            print("TVL history not available for pool:", pool_info["name"], pool_info["address"])
 
 def pools_daily_update():
     utc_now = datetime.now(timezone.utc)
-    top_pools_info = read_manifest("./metadata/pools/top_pools_info.json")
+    with open("./metadata/pools/top_pools_info.json", "r", encoding="utf-8") as f:
+        top_pools_info = [json.loads(line) for line in f]
     pools_tvl_info = get_tvl_info(top_pools_info)
     for pool_info in tqdm(top_pools_info):
         if pool_info["tvl_history_available"]:
-            update_pool_metadata(pool_info, utc_now, pools_tvl_info)
-    print("--END of main_update()--")
+            daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info)
 
 if __name__ == "__main__":
-    pools_creation()
+    pools_creation(network="solana", dex="orca")
