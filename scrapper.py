@@ -70,7 +70,8 @@ def get_top_pools_info(network, dex, top_pools_info=None, sort: str="default"):
     if top_pools_info == None:
         top_pools_info = pools_info
     else:
-        new_top_pools_info = [pool for pool in pools_info if pool not in top_pools_info]
+        existing_pool_address_list = [pool["address"] for pool in top_pools_info]
+        new_top_pools_info = [pool for pool in pools_info if pool["address"] not in existing_pool_address_list]
         top_pools_info.extend(new_top_pools_info)
         top_pools_info = sorted(top_pools_info, key=lambda x: x["name"])
     with open("./metadata/pools/top_pools_info.json", "w", encoding="utf-8") as f:
@@ -168,15 +169,12 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
         if utc_metadata_last_update >= utc_midnight:
             print(f"Pool {pool_info['name']} ({pool_info['address']}) metadata is already up to date.")
             return
-        timediff = utc_now - utc_metadata_last_update
-        limit_days = timediff.days - 1
     else:
         print(f"Creating metadata for pool {pool_info['name']} ({pool_info['address']})")
-        limit_days = 1000
 
     # Calls for getting the days data
-    response_data_usd = get_ohlcv_info(pool_info, limit=limit_days, before_timestamp=timestamp, currency="usd")
-    response_data_token = get_ohlcv_info(pool_info, limit=limit_days, before_timestamp=timestamp, currency="token")
+    response_data_usd = get_ohlcv_info(pool_info, before_timestamp=timestamp, currency="usd")
+    response_data_token = get_ohlcv_info(pool_info, before_timestamp=timestamp, currency="token")
     meta = {
         "pool_address": pool_info["address"],      # the pool's address
         "name": pool_info["name"],                 # the pool's name
@@ -200,7 +198,7 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
     for i, ohlcv_usd_entry in enumerate(response_data_usd["data"]["attributes"]["ohlcv_list"]):
         ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][i]
         epoch = datetime.fromtimestamp(ohlcv_usd_entry[0], tz=timezone.utc)
-        tvl_data = query_data_dict.get(epoch.strftime('%Y-%m-%dT%H:%M:%SZ'), {}).get(pool_info["id"], None)
+        tvl_data = query_data_dict.get(epoch.strftime('%Y-%m-%d %H:%M:%S'), {}).get(pool_info["id"], None)
         day_item = {
             "epoch": [int(epoch.timestamp()), epoch.strftime('%Y-%m-%dT%H:%M:%SZ')],
             "tvl": tvl_data,
@@ -237,15 +235,18 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
             timestamp = hour_item["epoch"][0]
 
     if os.path.exists(json_filepath):
-        data.extend(metadata["data"])
-        metadata["data"] = data
+        existing_epoch_list = [item["epoch"][0] for item in metadata["data"]]
+        new_data = [item for item in data if item["epoch"][0] not in existing_epoch_list and not int(utc_midnight.timestamp()) == item["epoch"][0]] # Only add the new day data and remove the actual day data (because it's not completed for 24h)
+        metadata["data"] = new_data + metadata["data"]
         metadata["meta"]["metadata_last_update"] = [int(utc_now.timestamp()), utc_now.strftime('%Y-%m-%dT%H:%M:%SZ')]
     else:
-        metadata = {"meta": meta, "data": data}
+        new_data = [item for item in data if not int(utc_midnight.timestamp()) == item["epoch"][0]] # Remove the actual day data (because it's not completed for 24h)
+        metadata = {"meta": meta, "data": new_data}
 
     with open(json_filepath, "w", encoding="utf-8") as json_file:
         json.dump(metadata, json_file, ensure_ascii=False)
   
+# Need to update this function to remove the first item, similar to the create_pool_metadata function
 def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
     # Updates the ohlcv and tvl data for existing and available pools, for the past day
     utc_midnight = datetime(utc_now.year, utc_now.month, utc_now.day, 0, 0, 0, tzinfo=timezone.utc)
@@ -256,10 +257,10 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
         metadata = json.load(json_infile)
 
     # Calls for getting the day data
-    response_data_usd = get_ohlcv_info(pool_info, limit=1, before_timestamp=timestamp, currency="usd")
-    response_data_token = get_ohlcv_info(pool_info, limit=1, before_timestamp=timestamp, currency="token")
-    ohlcv_usd_entry = response_data_usd["data"]["attributes"]["ohlcv_list"][0]
-    ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][0]
+    response_data_usd = get_ohlcv_info(pool_info, limit=2, before_timestamp=timestamp, currency="usd")
+    response_data_token = get_ohlcv_info(pool_info, limit=2, before_timestamp=timestamp, currency="token")
+    ohlcv_usd_entry = response_data_usd["data"]["attributes"]["ohlcv_list"][1]
+    ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][1]
     epoch = datetime.fromtimestamp(ohlcv_usd_entry[0], tz=timezone.utc)
     day_item = {
         "epoch": [int(epoch.timestamp()), epoch.strftime('%Y-%m-%dT%H:%M:%SZ')],
@@ -273,10 +274,10 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
     }
 
     # Calls for getting the hours data
-    response_data_usd = get_ohlcv_info(pool_info, limit=24, before_timestamp=timestamp, timeframe="hour", currency="usd")
-    response_data_token = get_ohlcv_info(pool_info, limit=24, before_timestamp=timestamp, timeframe="hour", currency="token")
-    for i, ohlcv_usd_entry in enumerate(response_data_usd["data"]["attributes"]["ohlcv_list"]):
-        ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][i]
+    response_data_usd = get_ohlcv_info(pool_info, limit=25, before_timestamp=timestamp, timeframe="hour", currency="usd")
+    response_data_token = get_ohlcv_info(pool_info, limit=25, before_timestamp=timestamp, timeframe="hour", currency="token")
+    for i, ohlcv_usd_entry in enumerate(response_data_usd["data"]["attributes"]["ohlcv_list"][1:]):
+        ohlcv_token_entry = response_data_token["data"]["attributes"]["ohlcv_list"][i+1]
         epoch = datetime.fromtimestamp(ohlcv_usd_entry[0], tz=timezone.utc)
         hour_item = {
             "epoch": [int(epoch.timestamp()), epoch.strftime('%Y-%m-%dT%H:%M:%SZ')],
@@ -297,8 +298,8 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
 ##############################################  MAIN  ##############################################
 ####################################################################################################
 
-def pools_creation(network, dex):
-    with open("./metadata/keys/dune_api_key", "r", encoding="utf-8") as f:
+def pools_creation(network, dex, ignore_steps=None):
+    with open("./keys/dune_api_key", "r", encoding="utf-8") as f:
         dune_api_key = f.read().strip()
     utc_now = datetime.now(timezone.utc)
     query_id = 4516255
@@ -307,11 +308,26 @@ def pools_creation(network, dex):
     else:
         with open("./metadata/pools/top_pools_info.json", "r", encoding="utf-8") as f:
             top_pools_info = [json.loads(line) for line in f]
+    
+    # Step A: Get top pools info from geckoterminal
+    if not "A" in ignore_steps:
+        print(f"Step A: Getting top pools info for {network}/{dex}")
+        top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info)
+        top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_volume_usd_desc")
+        top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_tx_count_desc")
+    elif "A" in ignore_steps:
+        print(f"Skipping Step A: Using existing top pools info")     
 
-    top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info)
-    top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_volume_usd_desc")
-    top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_tx_count_desc")
-    query_data_dict, top_pools_info = get_dune_query_data(dune_api_key, query_id, top_pools_info)
+    # Step B: Get dune query data
+    if not "B" in ignore_steps:
+        print(f"Step B: Getting dune query data for {network}/{dex}")
+        query_data_dict, top_pools_info = get_dune_query_data(dune_api_key, query_id, top_pools_info)
+    elif "B" in ignore_steps:
+        print(f"Skipping Step B: Using existing dune query data")
+        with open("./metadata/queries/dune_query_result.json", "r", encoding="utf-8") as f:
+            query_data_dict = json.load(f)
+
+    # Step C: Create pool metadata
     for pool_info in tqdm(top_pools_info):
         if pool_info["tvl_history_available"]:
             create_pool_metadata(pool_info, query_data_dict, utc_now)
@@ -328,4 +344,7 @@ def pools_daily_update():
             daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info)
 
 if __name__ == "__main__":
-    pools_creation(network="solana", dex="orca")
+    network = "solana"
+    dex = "orca"
+    ignore_steps = ["A","B"]
+    pools_creation(network, dex, ignore_steps)
