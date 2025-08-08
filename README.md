@@ -54,46 +54,50 @@ endpoint = f"{BASE_URL}/networks/{network}/pools/{pool_id}/ohlcv/{timeframe}?agg
 ```json
 {
     "meta": {
-        "pool_address": "str",    // the pool's address
-        "name": "str",            // the name of the pool
-        "fee": "float",           // the pool's fee in percentage
-        "network": "str",         // the network where the pool is (solana, ethereum, arbitrum ...)
-        "dex": "str",             // the dex where the pool is (orca, meteora, raydium ...)
+        "pool_address": "str",
+        "name": "str",
+        "fee": "float",
+        "network": "str",
+        "dex": "str",
         "base": {
-            "address": "str",     // the base token's address
-            "name": "str",        // the base token's name
-            "symbol": "str"       // the base token's symbol
+            "address": "str",
+            "name": "str",
+            "symbol": "str"
         },
         "quote": {
-            "address": "str",     // the quote token's symbol
-            "name": "str",        // the quote token's symbol
-            "symbol": "str"       // the quote token's symbol
+            "address": "str",
+            "name": "str",
+            "symbol": "str"
         },
         "pool_created_at": ["int", "str"],
-        "metadata_last_update": ["int", "str"] // the last update date in timestamp unix and iso8601.UTC format
+        "metadata_last_update": ["int", "str"]
     },
     "data": [
         {
-            "epoch": ["int", "str"],                                    // timestamp in unix and iso8601.UTC
-            "tvl": "float",                                             // the total value locked or liquidity for the pool in $USD
-            "open": ["float", "float"],             // the open value in $USD and token value
-            "high": ["float", "float"],             // the high value in $USD and token value
-            "low": ["float", "float"],              // the low value in $USD and token value
-            "close": ["float", "float"],            // the close value in $USD and token value
-            "volume": "float",                                          // the volume value in $USD
-            "hour_data": [                                          // the ohlcv data per hour, descendant -> [{23:00}, {22:00}, ..., {00:00}]
+            "epoch": ["int", "str"],
+            "tvl": "float",
+            "open": ["float", "float"],
+            "high": ["float", "float"],
+            "low": ["float", "float"],
+            "close": ["float", "float"],
+            "volume": "float",
+            "hour_data": [
                 {
-                    "epoch": ["int", "str"],                            // timestamp in unix and iso8601.UTC
-                    "open": ["float", "float"],     // the open value in $USD and token value
-                    "high": ["float", "float"],     // the high value in $USD and token value
-                    "low": ["float", "float"],      // the low value in $USD and token value
-                    "close": ["float", "float"],    // the close value in $USD and token value
-                    "volume": "float",                                  // the volume value in $USD
+                    "epoch": ["int", "str"],
+                    "open": ["float", "float"],
+                    "high": ["float", "float"],
+                    "low": ["float", "float"],
+                    "close": ["float", "float"],
+                    "volume": "float",
                 },
-                //...
+                {
+                    "..."
+                }
             ]
         },
-        //...
-    ] 
+        {
+            "..."
+        }
+    ]
 }
 ```
