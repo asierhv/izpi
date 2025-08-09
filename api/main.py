@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_DIR = "./results/pools_metadata"
+DATA_DIR = "./metadata/pools/pools_metadata"
 
 @app.get("/pool/{address}")
 def get_pool_metadata(address: str):
