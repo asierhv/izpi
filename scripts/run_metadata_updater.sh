@@ -4,17 +4,7 @@
 cd "$(dirname "$0")/.."
 
 # Activate virtual environment
-if [ -d "venv" ]; then
-    source venv/bin/activate
-else
-    echo "Virtual environment not found. Creating one..."
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install --upgrade pip
-    if [ -f "requirements.txt" ]; then
-        pip install -r requirements.txt
-    fi
-fi
+source venv_izpi/bin/activate
 
 # Git config (only if not already set)
 git config --global user.email "asierherranzv@gmail.com"
