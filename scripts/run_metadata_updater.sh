@@ -24,4 +24,6 @@ LOGFILE="logs/metadata_updater_$(date -u +'%Y-%m-%d_%H:%M:%S_UTC').log"
     git push
 } >> "$LOGFILE" 2>&1
 
+rm -r scripts/__pycache__
+
 echo "[$(date -u +'%Y-%m-%d %H:%M:%S UTC')] Done."
