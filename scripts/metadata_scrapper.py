@@ -6,7 +6,7 @@ import time
 import os
 import requests
 import json
-
+import sys
 
 CALLS_COUNTER = 0
 def call_get_request(endpoint):
@@ -18,9 +18,9 @@ def call_get_request(endpoint):
     retries = 0
     while retries < max_retries:
         if CALLS_COUNTER >= 30:
-            print(" Limit of 30 calls/min reached, waiting for 65s")
+            tqdm.write("Limit of 30 calls/min reached, waiting for 65s")
             for i in range(65, 0, -1):
-                print(f"{i}s ", end="\r")
+                tqdm.write(f"{i}s ", end="\r")
                 time.sleep(1)
             CALLS_COUNTER = 0
         response = requests.get(endpoint)
@@ -29,10 +29,10 @@ def call_get_request(endpoint):
         if response.status_code == 200:
             return response.json()
         elif response.status_code == 401:
-            print(" Data not available for input timestamp")
+            tqdm.write("Data not available for input timestamp")
             return None
         retries += 1
-        print(f" \nRetry {retries}/{max_retries}: Error {response.status_code}, retrying...")
+        tqdm.write(f"\nRetry {retries}/{max_retries}: Error {response.status_code}, retrying...")
 
 ####################################################################################################
 #########################################  GET - FUNCTIONS  ########################################
@@ -41,8 +41,8 @@ def call_get_request(endpoint):
 def get_top_pools_info(network, dex, top_pools_info=None, sort: str="default"):
     # Get top 200 pools on dex from geckoterminal, sorted by default (trend), volume_usd or tx_count
     pools_info = []
-    print(f" Getting top 200 pools on {network}/{dex}")
-    for n in tqdm(range(10)):
+    tqdm.write(f"Getting top 200 pools on {network}/{dex}")
+    for n in tqdm(range(10), disable=not sys.stdout.isatty()):
         endpoint = f"https://api.geckoterminal.com/api/v2/networks/{network}/dexes/{dex}/pools?page={n+1}"
         if sort in ("h24_volume_usd_desc","h24_tx_count_desc"):
             endpoint += f"&sort={sort}"
@@ -61,10 +61,10 @@ def get_top_pools_info(network, dex, top_pools_info=None, sort: str="default"):
                     pools_info.append(entry_dict)
                 else:
                     repeated_pools+=1
-                    print(" REPEATED POOL:", entry_dict)
+                    tqdm.write("REPEATED POOL:", entry_dict)
             else:
                 pools_info.append(entry_dict)
-    print(" Total Repeated Pools:",repeated_pools)
+    tqdm.write("Total Repeated Pools:",repeated_pools)
     
     # Writes or updates the total_top_pools.json file with the new pools
     if top_pools_info == None:
@@ -119,7 +119,7 @@ def get_dune_query_data(dune_api_key, query_id, top_pools_info):
         else:
             available_pools+=1
             top_pools_info[i]["tvl_history_available"] = True
-    print(f"TVL data available for {available_pools}/{len(top_pools_info)} pools")
+    tqdm.write(f"TVL data available for {available_pools}/{len(top_pools_info)} pools")
     with open("./metadata/pools/top_pools_info.json", "w", encoding="utf-8") as f:
         for item in top_pools_info:
             f.write(json.dumps(item, ensure_ascii=False) + "\n")
@@ -146,15 +146,15 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
     json_filepath = f"./metadata/pools/pools_metadata/{pool_info['address']}.json"
 
     if os.path.exists(json_filepath):
-        print(f" Updating metadata for pool {pool_info['name']} ({pool_info['address']})")
+        tqdm.write(f"Updating metadata for pool {pool_info['name']} ({pool_info['address']})")
         with open(json_filepath, "r", encoding="utf-8") as json_infile:
             metadata = json.load(json_infile)
         utc_metadata_last_update = datetime.fromtimestamp(metadata["meta"]["metadata_last_update"][0], tz=timezone.utc)
         if utc_metadata_last_update >= utc_midnight:
-            print(f" Metadata for pool {pool_info['name']} ({pool_info['address']}) is already up to date.")
+            tqdm.write(f"Metadata for pool {pool_info['name']} ({pool_info['address']}) is already up to date.")
             return
     else:
-        print(f" Creating metadata for pool {pool_info['name']} ({pool_info['address']})")
+        tqdm.write(f"Creating metadata for pool {pool_info['name']} ({pool_info['address']})")
 
     # Calls for getting the days data
     response_data_usd = get_ohlcv_info(pool_info, before_timestamp=timestamp, currency="usd")
@@ -238,7 +238,7 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
 
 def pools_creation(network, dex, ignore_steps=None):
     # Creates the metadata for all pools in a given newtork and dex
-    print("\n------ POOLS CREATION ------\n")
+    tqdm.write("\n------ POOLS CREATION ------\n")
     with open("./keys/dune_api_key", "r", encoding="utf-8") as f:
         dune_api_key = f.read().strip()
     utc_now = datetime.now(timezone.utc)
@@ -251,29 +251,29 @@ def pools_creation(network, dex, ignore_steps=None):
     
     # Step A: Get top pools info from geckoterminal
     if not "A" in ignore_steps:
-        print(f" Step A: Getting top pools info for {network}/{dex}...")
+        tqdm.write(f"Step A: Getting top pools info for {network}/{dex}...")
         top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info)
         top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_volume_usd_desc")
         top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_tx_count_desc")
     elif "A" in ignore_steps:
-        print(f" Skipping Step A: Using existing top pools info.")     
+        tqdm.write(f"Skipping Step A: Using existing top pools info.")     
 
     # Step B: Get dune query data
     if not "B" in ignore_steps:
-        print(f" Step B: Getting dune query data for top pools in {network}/{dex}...")
+        tqdm.write(f"Step B: Getting dune query data for top pools in {network}/{dex}...")
         query_data_dict, top_pools_info = get_dune_query_data(dune_api_key, query_id, top_pools_info)
     elif "B" in ignore_steps:
-        print(f" Skipping Step B: Using existing dune query data.")
+        tqdm.write(f"Skipping Step B: Using existing dune query data.")
         with open("./metadata/queries/dune_query_result.json", "r", encoding="utf-8") as f:
             query_data_dict = json.load(f)
 
     # Step C: Create pool metadata
-    print(f" Step C: Creating pools metadata for top pools in {network}/{dex}...")
-    for pool_info in tqdm(top_pools_info):
+    tqdm.write(f"Step C: Creating pools metadata for top pools in {network}/{dex}...")
+    for pool_info in tqdm(top_pools_info, disable=not sys.stdout.isatty()):
         if pool_info["tvl_history_available"]:
             create_pool_metadata(pool_info, query_data_dict, utc_now)
         else:
-            print("TVL history not available for pool:", pool_info["name"], pool_info["address"])
+            tqdm.write("TVL history not available for pool:", pool_info["name"], pool_info["address"])
 
 if __name__ == "__main__":
     network = "solana"

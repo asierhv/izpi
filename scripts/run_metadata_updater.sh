@@ -11,17 +11,17 @@ git config --global user.email "asierherranzv@gmail.com"
 git config --global user.name "asierhv"
 
 # Log file path (UTC0 date in ISO 8601 format)
-LOGFILE="logs/metadata_updater_$(date -u +'%Y-%m-%dT%H:%M:%SZ').log"
+LOGFILE="logs/metadata_updater_$(date -u +'%Y-%m-%d_%H:%M:%S_UTC').log"
 
 # Run the updater and log output
 {
-    echo "[$(date -u +'%Y-%m-%dT%H:%M:%SZ')] Running metadata_updater.py..."
+    echo "[$(date -u +'%Y-%m-%d %H:%M:%S UTC')] Running metadata_updater.py..."
     python scripts/metadata_updater.py
 
-    echo "[$(date -u +'%Y-%m-%dT%H:%M:%SZ')] Pushing changes to GitHub..."
+    echo "[$(date -u +'%Y-%m-%d %H:%M:%S UTC')] Pushing changes to GitHub..."
     git add .
-    git commit -m "Auto-update: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+    git commit -m "Auto-update: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
     git push
 } >> "$LOGFILE" 2>&1
 
-echo "[$(date -u +'%Y-%m-%dT%H:%M:%SZ')] Done."
+echo "[$(date -u +'%Y-%m-%d %H:%M:%S UTC')] Done."

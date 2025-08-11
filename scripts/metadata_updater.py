@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 from tqdm import tqdm
 import json
+import sys
 import metadata_scrapper as ms
 
 ####################################################################################################
@@ -33,12 +34,12 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
     timestamp = int(utc_midnight.timestamp())
     json_filepath = f"./metadata/pools/pools_metadata/{pool_info['address']}.json"
     
-    print(f" Updating daily metadata for pool {pool_info['name']} ({pool_info['address']})")
+    tqdm.write(f"Updating daily metadata for pool {pool_info['name']} ({pool_info['address']})")
     with open(json_filepath, "r", encoding="utf-8") as json_infile:
         metadata = json.load(json_infile)
     utc_metadata_last_update = datetime.fromtimestamp(metadata["meta"]["metadata_last_update"][0], tz=timezone.utc)
     if utc_metadata_last_update >= utc_midnight:
-        print(f" Metadata for pool {pool_info['name']} ({pool_info['address']}) is already up to date.")
+        tqdm.write(f"Metadata for pool {pool_info['name']} ({pool_info['address']}) is already up to date.")
         return
 
     # Calls for getting the days data
@@ -87,7 +88,7 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
     existing_epoch_list = [item["epoch"][0] for item in metadata["data"]]
     new_data = [item for item in data if item["epoch"][0] not in existing_epoch_list and not int(utc_midnight.timestamp()) == item["epoch"][0]]
     if len(new_data) > 1:
-        print(f"Warning: More than one day of data found for pool {pool_info['name']} ({pool_info['address']})")
+        tqdm.write(f"Warning: More than one day of data found for pool {pool_info['name']} ({pool_info['address']})")
         for item in new_data[1:]:
             item["tvl"] = None
     metadata["data"] = new_data + metadata["data"]
@@ -103,18 +104,18 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
 def pools_daily_update():
     # Updates the metadata for all available pools in the top_pools_info.json file
     utc_now = datetime.now(timezone.utc)
-    print(f"\n------ POOLS DAILY UPDATE - {utc_now.strftime('%Y-%m-%d %H:%M:%S')} ------\n")
+    tqdm.write(f"\n------ POOLS DAILY UPDATE - {utc_now.strftime('%Y-%m-%d %H:%M:%S')} ------\n")
     with open("./metadata/pools/top_pools_info.json", "r", encoding="utf-8") as f:
         top_pools_info = [json.loads(line) for line in f]
 
     # Step 1: Get the TVL info for available pools
-    print(" Step 1: Getting TVL info for available pools...")
+    tqdm.write("Step 1: Getting TVL info for available pools...")
     pools_tvl_info = get_tvl_info(top_pools_info)
 
     #Step 2: Update the metadata for each pool
-    print(" Step 2: Updating daily metadata for each pool...")
+    tqdm.write("Step 2: Updating daily metadata for each pool...")
     available_top_pools_info = [pool_info for pool_info in top_pools_info if pool_info["tvl_history_available"]]
-    for pool_info in tqdm(available_top_pools_info):
+    for pool_info in tqdm(available_top_pools_info, disable=not sys.stdout.isatty()):
         daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info)
 
 if __name__ == "__main__":
