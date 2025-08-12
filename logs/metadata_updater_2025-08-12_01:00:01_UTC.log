@@ -211,3 +211,9 @@ Traceback (most recent call last):
     raise ConnectionError(err, request=request)
 requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 [2025-08-12 01:23:12 UTC] Pushing changes to GitHub...
+[master e9f7292] Auto-update: 2025-08-12 01:23:22 UTC
+ 111 files changed, 322 insertions(+), 109 deletions(-)
+ create mode 100644 logs/metadata_updater_2025-08-12_01:00:01_UTC.log
+ create mode 100644 scripts/__pycache__/metadata_scrapper.cpython-311.pyc
+To https://github.com/asierhv/izpi.git
+   0f37db1..e9f7292  master -> master
