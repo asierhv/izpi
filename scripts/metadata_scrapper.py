@@ -18,21 +18,27 @@ def call_get_request(endpoint):
     retries = 0
     while retries < max_retries:
         if CALLS_COUNTER >= 30:
-            tqdm.write("Limit of 30 calls/min reached, waiting for 65s")
-            for i in range(65, 0, -1):
-                tqdm.write(f"{i}s ", end="\r")
+            tqdm.write("Limit of 30 calls/min reached, waiting for 65s...")
+            for i in tqdm(range(65, 0, -1), disable=not sys.stdout.isatty()):
                 time.sleep(1)
             CALLS_COUNTER = 0
-        response = requests.get(endpoint)
-        CALLS_COUNTER += 1
-        time.sleep(0.25)
-        if response.status_code == 200:
-            return response.json()
-        elif response.status_code == 401:
-            tqdm.write("Data not available for input timestamp")
-            return None
-        retries += 1
-        tqdm.write(f"\nRetry {retries}/{max_retries}: Error {response.status_code}, retrying...")
+        try:
+            response = requests.get(endpoint)
+            CALLS_COUNTER += 1
+            time.sleep(0.25)
+            if response.status_code == 200:
+                return response.json()
+            elif response.status_code == 401:
+                tqdm.write("Data not available for input timestamp")
+                return None
+            retries += 1
+            tqdm.write(f"\nRetry {retries}/{max_retries}: Response Error {response.status_code}, retrying...")
+        except requests.exceptions.RequestException as e:
+            retries += 1
+            tqdm.write(f"\nRetry {retries}/{max_retries}: Network Error: {e}, retrying...")
+            time.sleep(30)
+    tqdm.write(f"Failed to get a valid response after {max_retries} attempts for endpoint: {endpoint}")
+    return None
 
 ####################################################################################################
 #########################################  GET - FUNCTIONS  ########################################
