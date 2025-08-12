@@ -28,21 +28,30 @@ def get_tvl_info(top_pools_info):
 ##################################  CREATE / UPDATE - FUNCTIONS  ###################################
 ####################################################################################################
 
+def check_metadata_last_update(metadata, utc_midnight):
+    # Checks if the metadata for the pool is up to date, returns True if it is, False otherwise
+    utc_metadata_last_update = datetime.fromtimestamp(metadata["meta"]["metadata_last_update"][0], tz=timezone.utc)
+    if utc_metadata_last_update >= utc_midnight:
+        tqdm.write(f"Metadata for pool {metadata["meta"]['name']} ({metadata["meta"]['pool_address']}) is UP to date.")
+        return True
+    else:
+        tqdm.write(f"Metadata for pool {metadata['meta']['name']} ({metadata['meta']['pool_address']}) is NOT UP to date.")
+        tqdm.write(f"Last update: {utc_metadata_last_update.strftime('%Y-%m-%d %H:%M:%S')}, current time: {utc_midnight.strftime('%Y-%m-%d %H:%M:%S')}")
+        return False
+
 def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
     # Updates the ohlcv and tvl data for existing and available pools, for the past day
     utc_midnight = datetime(utc_now.year, utc_now.month, utc_now.day, 0, 0, 0, tzinfo=timezone.utc)
     timestamp = int(utc_midnight.timestamp())
     json_filepath = f"./metadata/pools/pools_metadata/{pool_info['address']}.json"
     
-    tqdm.write(f"Updating daily metadata for pool {pool_info['name']} ({pool_info['address']})")
     with open(json_filepath, "r", encoding="utf-8") as json_infile:
         metadata = json.load(json_infile)
-    utc_metadata_last_update = datetime.fromtimestamp(metadata["meta"]["metadata_last_update"][0], tz=timezone.utc)
-    if utc_metadata_last_update >= utc_midnight:
-        tqdm.write(f"Metadata for pool {pool_info['name']} ({pool_info['address']}) is already up to date.")
+    if not check_metadata_last_update(metadata, utc_midnight):
         return
-
+    
     # Calls for getting the days data
+    tqdm.write(f"Updating daily metadata for pool {pool_info['name']} ({pool_info['address']})")
     day_limit = 3 # 2 days + current day (just in case, later only the missing days will be added)
     response_data_usd = ms.get_ohlcv_info(pool_info, limit=day_limit, before_timestamp=timestamp, currency="usd")
     response_data_token = ms.get_ohlcv_info(pool_info, limit=day_limit, before_timestamp=timestamp, currency="token")
@@ -104,17 +113,22 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
 def pools_daily_update():
     # Updates the metadata for all available pools in the top_pools_info.json file
     utc_now = datetime.now(timezone.utc)
+    utc_midnight = datetime(utc_now.year, utc_now.month, utc_now.day, 0, 0, 0, tzinfo=timezone.utc)
     tqdm.write(f"\n------ POOLS DAILY UPDATE - {utc_now.strftime('%Y-%m-%d %H:%M:%S')} ------\n")
-    with open("./metadata/pools/top_pools_info.json", "r", encoding="utf-8") as f:
-        top_pools_info = [json.loads(line) for line in f]
 
     # Step 1: Get the TVL info for available pools
+    with open("./metadata/pools/top_pools_info.json", "r", encoding="utf-8") as f:
+        top_pools_info = [json.loads(line) for line in f]
     tqdm.write("Step 1: Getting TVL info for available pools...")
     pools_tvl_info = get_tvl_info(top_pools_info)
 
     #Step 2: Update the metadata for each pool
     tqdm.write("Step 2: Updating daily metadata for each pool...")
     available_top_pools_info = [pool_info for pool_info in top_pools_info if pool_info["tvl_history_available"]]
+    for pool_info in tqdm(available_top_pools_info, disable=not sys.stdout.isatty()):
+        daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info)
+    
+    #Step 3: Check if all the pools have been updated
     for pool_info in tqdm(available_top_pools_info, disable=not sys.stdout.isatty()):
         daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info)
 

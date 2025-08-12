@@ -19,7 +19,8 @@ def call_get_request(endpoint):
     while retries < max_retries:
         if CALLS_COUNTER >= 30:
             tqdm.write("Limit of 30 calls/min reached, waiting for 65s...")
-            for i in tqdm(range(65, 0, -1), disable=not sys.stdout.isatty()):
+            for i in range(65, 0, -1):
+                tqdm.write(f"{i}s ", disable=not sys.stdout.isatty(), end="\r")
                 time.sleep(1)
             CALLS_COUNTER = 0
         try:
@@ -245,6 +246,7 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
 def pools_creation(network, dex, ignore_steps=None):
     # Creates the metadata for all pools in a given newtork and dex
     tqdm.write("\n------ POOLS CREATION ------\n")
+
     with open("./keys/dune_api_key", "r", encoding="utf-8") as f:
         dune_api_key = f.read().strip()
     utc_now = datetime.now(timezone.utc)
@@ -280,6 +282,8 @@ def pools_creation(network, dex, ignore_steps=None):
             create_pool_metadata(pool_info, query_data_dict, utc_now)
         else:
             tqdm.write("TVL history not available for pool:", pool_info["name"], pool_info["address"])
+    
+    tqdm.write("\n------ POOLS CREATION COMPLETED ------\n")
 
 if __name__ == "__main__":
     network = "solana"
