@@ -47,7 +47,7 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
     
     with open(json_filepath, "r", encoding="utf-8") as json_infile:
         metadata = json.load(json_infile)
-    if not check_metadata_last_update(metadata, utc_midnight):
+    if check_metadata_last_update(metadata, utc_midnight):
         return
     
     # Calls for getting the days data
