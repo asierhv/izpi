@@ -1,0 +1,6 @@
+[2025-08-13 01:00:01 UTC] Running metadata_updater.py...
+  File "/home/wbug/projects/izpi/scripts/metadata_updater.py", line 35
+    tqdm.write(f"Metadata for pool {metadata["meta"]['name']} ({metadata["meta"]['pool_address']}) is UP to date.")
+                                              ^^^^
+SyntaxError: f-string: unmatched '['
+[2025-08-13 01:00:02 UTC] Pushing changes to GitHub...
