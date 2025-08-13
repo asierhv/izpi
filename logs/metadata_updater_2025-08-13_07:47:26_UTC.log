@@ -41,3 +41,10 @@ Traceback (most recent call last):
     tqdm.write(f"{i}s ", disable=not sys.stdout.isatty(), end="\r")
 TypeError: tqdm.write() got an unexpected keyword argument 'disable'
 [2025-08-13 07:47:57 UTC] Pushing changes to GitHub...
+[master 3a18de7] Auto-update: 2025-08-13 07:47:58 UTC
+ 10 files changed, 50 insertions(+), 649 deletions(-)
+ delete mode 100644 logs/metadata_updater_2025-08-13_01:00:01_UTC.log
+ delete mode 100644 logs/metadata_updater_2025-08-13_07:45:51_UTC.log
+ create mode 100644 logs/metadata_updater_2025-08-13_07:47:26_UTC.log
+To https://github.com/asierhv/izpi.git
+   3f180b7..3a18de7  master -> master

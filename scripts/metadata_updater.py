@@ -36,7 +36,7 @@ def check_metadata_last_update(metadata, utc_midnight):
         return True
     else:
         tqdm.write(f"Metadata for pool {metadata['meta']['name']} ({metadata['meta']['pool_address']}) is NOT UP to date.")
-        tqdm.write(f"Last update: {utc_metadata_last_update.strftime('%Y-%m-%d %H:%M:%S')}, current time: {utc_midnight.strftime('%Y-%m-%d %H:%M:%S')}")
+        tqdm.write(f"Last update: {utc_metadata_last_update.strftime('%Y-%m-%d %H:%M:%S')}")
         return False
 
 def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):

@@ -19,8 +19,7 @@ def call_get_request(endpoint):
     while retries < max_retries:
         if CALLS_COUNTER >= 30:
             tqdm.write("Limit of 30 calls/min reached, waiting for 65s...")
-            for i in range(65, 0, -1):
-                tqdm.write(f"{i}s ", disable=not sys.stdout.isatty(), end="\r")
+            for _ in tqdm(range(65, 0, -1), disable=not sys.stdout.isatty()):
                 time.sleep(1)
             CALLS_COUNTER = 0
         try:
@@ -36,7 +35,7 @@ def call_get_request(endpoint):
             tqdm.write(f"\nRetry {retries}/{max_retries}: Response Error {response.status_code}, retrying...")
         except requests.exceptions.RequestException as e:
             retries += 1
-            tqdm.write(f"\nRetry {retries}/{max_retries}: Network Error: {e}, retrying...")
+            tqdm.write(f"\nRetry {retries}/{max_retries}: Network Error: {e}, retrying in 30s...")
             time.sleep(30)
     tqdm.write(f"Failed to get a valid response after {max_retries} attempts for endpoint: {endpoint}")
     return None
