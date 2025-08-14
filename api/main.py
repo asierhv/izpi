@@ -1,6 +1,5 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pathlib import Path
 import os
 import json
 
@@ -13,7 +12,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_DIR = "./metadata/pools/pools_metadata"
+DATA_DIR = "/home/wbug/projects/izpi/metadata/pools/pools_metadata"
 
 @app.get("/pool/{address}")
 def get_pool_metadata(address: str):
