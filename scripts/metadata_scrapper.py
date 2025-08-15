@@ -244,11 +244,11 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
 
 def pools_creation(network, dex, ignore_steps=None):
     # Creates the metadata for all pools in a given newtork and dex
-    tqdm.write("\n------ POOLS CREATION ------\n")
+    utc_now = datetime.now(timezone.utc)
+    tqdm.write(f"\n------ POOLS CREATION - {utc_now.strftime('%Y-%m-%d %H:%M:%S')}------\n")
 
     with open("./keys/dune_api_key", "r", encoding="utf-8") as f:
         dune_api_key = f.read().strip()
-    utc_now = datetime.now(timezone.utc)
     query_id = 4516255
     if not os.path.exists("./metadata/pools/top_pools_info.json"):
         top_pools_info = None
@@ -258,31 +258,31 @@ def pools_creation(network, dex, ignore_steps=None):
     
     # Step A: Get top pools info from geckoterminal
     if not "A" in ignore_steps:
-        tqdm.write(f"Step A: Getting top pools info for {network}/{dex}...")
+        tqdm.write(f"\nStep A: Getting top pools info for {network}/{dex}...")
         top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info)
         top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_volume_usd_desc")
         top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info, sort="h24_tx_count_desc")
     elif "A" in ignore_steps:
-        tqdm.write(f"Skipping Step A: Using existing top pools info.")     
+        tqdm.write(f"\nSkipping Step A: Using existing top pools info.")     
 
     # Step B: Get dune query data
     if not "B" in ignore_steps:
-        tqdm.write(f"Step B: Getting dune query data for top pools in {network}/{dex}...")
+        tqdm.write(f"\nStep B: Getting dune query data for top pools in {network}/{dex}...")
         query_data_dict, top_pools_info = get_dune_query_data(dune_api_key, query_id, top_pools_info)
     elif "B" in ignore_steps:
-        tqdm.write(f"Skipping Step B: Using existing dune query data.")
+        tqdm.write(f"\nSkipping Step B: Using existing dune query data.")
         with open("./metadata/queries/dune_query_result.json", "r", encoding="utf-8") as f:
             query_data_dict = json.load(f)
 
     # Step C: Create pool metadata
-    tqdm.write(f"Step C: Creating pools metadata for top pools in {network}/{dex}...")
+    tqdm.write(f"\nStep C: Creating pools metadata for top pools in {network}/{dex}...")
     for pool_info in tqdm(top_pools_info, disable=not sys.stdout.isatty()):
         if pool_info["tvl_history_available"]:
             create_pool_metadata(pool_info, query_data_dict, utc_now)
         else:
             tqdm.write("TVL history not available for pool:", pool_info["name"], pool_info["address"])
     
-    tqdm.write("\n------ POOLS CREATION COMPLETED ------\n")
+    tqdm.write(f"\n------ POOLS CREATION COMPLETED - {utc_now.strftime('%Y-%m-%dT%H:%M:%SZ')}------\n")
 
 if __name__ == "__main__":
     network = "solana"

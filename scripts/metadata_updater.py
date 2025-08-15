@@ -113,24 +113,26 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
 def pools_daily_update():
     # Updates the metadata for all available pools in the top_pools_info.json file
     utc_now = datetime.now(timezone.utc)
-    utc_midnight = datetime(utc_now.year, utc_now.month, utc_now.day, 0, 0, 0, tzinfo=timezone.utc)
     tqdm.write(f"\n------ POOLS DAILY UPDATE - {utc_now.strftime('%Y-%m-%d %H:%M:%S')} ------\n")
 
     # Step 1: Get the TVL info for available pools
     with open("./metadata/pools/top_pools_info.json", "r", encoding="utf-8") as f:
         top_pools_info = [json.loads(line) for line in f]
-    tqdm.write("Step 1: Getting TVL info for available pools...")
+    tqdm.write("\nStep 1: Getting TVL info for available pools...")
     pools_tvl_info = get_tvl_info(top_pools_info)
 
     #Step 2: Update the metadata for each pool
-    tqdm.write("Step 2: Updating daily metadata for each pool...")
+    tqdm.write("\nStep 2: Updating daily metadata for each pool...")
     available_top_pools_info = [pool_info for pool_info in top_pools_info if pool_info["tvl_history_available"]]
     for pool_info in tqdm(available_top_pools_info, disable=not sys.stdout.isatty()):
         daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info)
     
     #Step 3: Check if all the pools have been updated
+    tqdm.write("\nStep 3: Updating daily metadata for each pool...")
     for pool_info in tqdm(available_top_pools_info, disable=not sys.stdout.isatty()):
         daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info)
+
+    tqdm.write(f"\n------ POOLS DAILY UPDATE COMPLETED - {utc_now.strftime('%Y-%m-%d %H:%M:%S')} ------\n")
 
 if __name__ == "__main__":
     pools_daily_update()
