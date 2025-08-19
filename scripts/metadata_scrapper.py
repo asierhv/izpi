@@ -243,7 +243,7 @@ def create_pool_metadata(pool_info, query_data_dict, utc_now):
 ####################################################################################################
 
 def pools_creation(network, dex, ignore_steps=None):
-    # Creates the metadata for all pools in a given newtork and dex
+    # Creates the metadata for all pools in a given newtork and dex 
     utc_now = datetime.now(timezone.utc)
     tqdm.write(f"\n------ POOLS CREATION - {utc_now.strftime('%Y-%m-%d %H:%M:%S')}------\n")
 

@@ -12,7 +12,7 @@ git config --global user.name "asierhv"
 
 # Log file path (UTC0 date in ISO 8601 format)
 LOGFILE="logs/metadata_updater_$(date -u +'%Y-%m-%d_%H:%M:%S_UTC').log"
-
+ 
 # Run the updater and log output
 {
     echo "[$(date -u +'%Y-%m-%d %H:%M:%S UTC')] Running metadata_updater.py..."

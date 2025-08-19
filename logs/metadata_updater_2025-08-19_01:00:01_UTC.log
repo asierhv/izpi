@@ -656,3 +656,14 @@ Metadata for pool wfragSOL / JitoSOL (5xfKkFmhzNhHKTFUkh4PJmHSWB6LpRvhJcUMKzPP6m
 ------ POOLS DAILY UPDATE COMPLETED - 2025-08-19 01:00:01 ------
 
 [2025-08-19 01:34:12 UTC] Pushing changes to GitHub...
+[master 5e6c674] Auto-update: 2025-08-19 01:34:26 UTC
+ 164 files changed, 359 insertions(+), 1731 deletions(-)
+ delete mode 100644 logs/metadata_updater_2025-08-10T19:27:00Z.log
+ delete mode 100644 logs/metadata_updater_2025-08-11T08:56:06Z.log
+ delete mode 100644 logs/metadata_updater_2025-08-11_12:10:01_UTC.log
+ delete mode 100644 logs/metadata_updater_2025-08-12_01:00:01_UTC.log
+ delete mode 100644 logs/metadata_updater_2025-08-12_08:20:06_UTC.log
+ delete mode 100644 logs/metadata_updater_2025-08-13_07:47:26_UTC.log
+ rename logs/{metadata_updater_2025-08-13_07:52:17_UTC.log => metadata_updater_2025-08-19_01:00:01_UTC.log} (80%)
+To https://github.com/asierhv/izpi.git
+   eed0d3c..5e6c674  master -> master

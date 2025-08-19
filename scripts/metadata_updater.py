@@ -111,7 +111,7 @@ def daily_update_pool_metadata(pool_info, utc_now, pools_tvl_info):
 ####################################################################################################
 
 def pools_daily_update():
-    # Updates the metadata for all available pools in the top_pools_info.json file
+    # Updates the metadata for all available pools in the top_pools_info.json file 
     utc_now = datetime.now(timezone.utc)
     tqdm.write(f"\n------ POOLS DAILY UPDATE - {utc_now.strftime('%Y-%m-%d %H:%M:%S')} ------\n")
 

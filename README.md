@@ -9,7 +9,7 @@ uvicorn api.main:app --reload --port 9000
 cd ~/izpi/web
 python -m http.server 8000
 ```
-
+ 
 **Site Entry:**  
 [http://localhost:8000](http://localhost:8000)
 
