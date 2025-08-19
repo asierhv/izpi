@@ -1,189 +1,0 @@
-[2025-08-11T08:56:06Z] Running metadata_updater.py...
-
------- POOLS DAILY UPDATE - 2025-08-11 08:56:07 ------
-
- Step 1: Getting TVL info for available pools...
- Step 2: Updating daily metadata for each pool...
-  0%|          | 0/156 [00:00<?, ?it/s]  1%|          | 1/156 [00:04<12:18,  4.77s/it]  1%|▏         | 2/156 [00:09<11:34,  4.51s/it]  2%|▏         | 3/156 [00:13<11:22,  4.46s/it]  3%|▎         | 4/156 [00:17<10:46,  4.26s/it]  3%|▎         | 5/156 [00:21<10:38,  4.23s/it]  4%|▍         | 6/156 [00:25<10:25,  4.17s/it]  4%|▍         | 7/156 [01:34<1:02:44, 25.26s/it]  5%|▌         | 8/156 [01:39<46:12, 18.73s/it]    6%|▌         | 9/156 [01:43<34:49, 14.21s/it]  6%|▋         | 10/156 [01:48<27:29, 11.30s/it]  7%|▋         | 11/156 [01:52<22:05,  9.14s/it]  8%|▊         | 12/156 [01:56<18:23,  7.66s/it]  8%|▊         | 13/156 [02:00<15:39,  6.57s/it]  9%|▉         | 14/156 [03:10<1:00:39, 25.63s/it] 10%|▉         | 15/156 [03:14<45:02, 19.17s/it]   10%|█         | 16/156 [03:18<34:08, 14.63s/it] 11%|█         | 17/156 [03:22<26:13, 11.32s/it] 12%|█▏        | 18/156 [03:26<21:03,  9.16s/it] 12%|█▏        | 19/156 [03:30<17:35,  7.71s/it] 13%|█▎        | 20/156 [03:33<14:20,  6.33s/it] 13%|█▎        | 21/156 [03:38<13:00,  5.78s/it] 14%|█▍        | 22/156 [04:47<55:04, 24.66s/it] 15%|█▍        | 23/156 [04:51<41:14, 18.61s/it] 15%|█▌        | 24/156 [04:55<31:12, 14.18s/it] 16%|█▌        | 25/156 [04:59<24:09, 11.07s/it] 17%|█▋        | 26/156 [05:03<19:37,  9.06s/it] 17%|█▋        | 27/156 [05:07<16:06,  7.49s/it] 18%|█▊        | 28/156 [05:11<13:58,  6.55s/it] 19%|█▊        | 29/156 [06:20<53:15, 25.16s/it] 19%|█▉        | 30/156 [06:24<39:33, 18.84s/it] 20%|█▉        | 31/156 [06:28<30:15, 14.52s/it] 21%|██        | 32/156 [06:33<23:47, 11.52s/it] 21%|██        | 33/156 [06:36<18:40,  9.11s/it] 22%|██▏       | 34/156 [06:41<15:45,  7.75s/it] 22%|██▏       | 35/156 [06:45<13:39,  6.77s/it] 23%|██▎       | 36/156 [06:50<12:02,  6.02s/it] 24%|██▎       | 37/156 [07:59<49:40, 25.05s/it] 24%|██▍       | 38/156 [08:04<37:12, 18.92s/it] 25%|██▌       | 39/156 [08:08<28:32, 14.64s/it] 26%|██▌       | 40/156 [08:13<22:13, 11.49s/it] 26%|██▋       | 41/156 [08:17<17:54,  9.34s/it] 27%|██▋       | 42/156 [08:21<14:52,  7.83s/it] 28%|██▊       | 43/156 [08:25<12:40,  6.73s/it] 28%|██▊       | 44/156 [09:35<47:42, 25.56s/it] 29%|██▉       | 45/156 [09:39<35:34, 19.23s/it] 29%|██▉       | 46/156 [09:43<26:47, 14.62s/it] 30%|███       | 47/156 [09:47<20:50, 11.47s/it] 31%|███       | 48/156 [09:52<16:44,  9.30s/it] 31%|███▏      | 49/156 [09:56<13:53,  7.79s/it] 32%|███▏      | 50/156 [10:00<11:46,  6.66s/it] 33%|███▎      | 51/156 [10:04<10:13,  5.84s/it] 33%|███▎      | 52/156 [11:13<43:11, 24.92s/it] 34%|███▍      | 53/156 [11:17<32:07, 18.71s/it] 35%|███▍      | 54/156 [11:22<24:37, 14.48s/it] 35%|███▌      | 55/156 [11:26<18:51, 11.20s/it] 36%|███▌      | 56/156 [11:31<15:51,  9.51s/it] 37%|███▋      | 57/156 [11:36<13:13,  8.02s/it] 37%|███▋      | 58/156 [11:40<11:08,  6.82s/it] Updating daily metadata for pool $WIF / SOL (D6NdKrKNQPmRZCCnG1GqXtF7MMoHB7qR6GU5TkG59Qz1)
- Updating daily metadata for pool $WIF / SOL (CZrvf5cCAf7BoTqLkMEsT2czJobx4zfppHez2gaJwHaF)
- Updating daily metadata for pool $WIF / SOL (4E6q7eJE6vBNdquqzYYi5gvzd5MNpwiQKhjbRTRQGuQd)
- Updating daily metadata for pool $WIF / SOL (A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b)
- Updating daily metadata for pool $WIF / USDC (CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes)
- Updating daily metadata for pool $michi / SOL (CATK9eqtn8Qwv95JF6JS4xdC4AYRFqPiuswG7fwsnVN1)
- Updating daily metadata for pool -/+ / SOL (7PRRUiYzmK81hJzbbDFNpCR3aQbZCmtwTyaoPYndCoq6)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool ACS / SOL (Go1hKVCy6mJA5usvHNV74KjkexXG2AUporDMeda5icmb)
- Updating daily metadata for pool ACS / USDC (DQbUWSZoLpuHmdyqnJzpctPBkoKdJhMZdE1cJoWk2pnt)
- Updating daily metadata for pool AUDIO / USDC (CZqbzVsVQQtBy1X15gHxipWFnC3Hkar62LJ49XuSK7ec)
- Updating daily metadata for pool AVAX / USDC (CeGZNd2ap2ke8JreVqDXikSrxhnSERh9G8WAt4yqMcBs)
- Updating daily metadata for pool BLOCK / SOL (DpRTn6DsBMVMkW2s9DaT4EGHBFSXx6vs7gVpw7niFJLY)
- Updating daily metadata for pool BORG / SOL (KLkoFSdCpC523EmmGyJxmLv1A3itv8ZNiMZwjPmFXuk)
- Updating daily metadata for pool Bonk / $WIF (56Ekyu6uBpTna3LR2qkjHjNbDNkCLWK2Lt3uWh7J2R8Z)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool Bonk / SOL (5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9)
- Updating daily metadata for pool Bonk / SOL (3ne4mWqdYuNiYrYZC9TrA3FcfuFdErghH97vNPbjicr1)
- Updating daily metadata for pool Bonk / SOL (5r2SKyVDAmaj8HJak4qRS2oLCn2caf3jmrJi8ikRKj6s)
- Updating daily metadata for pool Bonk / SOL (4VG8VFNo3EXiTA75mhh48qv55S6m3VA2uTQCzEt8kczb)
- Updating daily metadata for pool Bonk / USDC (8QaXeHBrShJTdtN1rWCccBxpSVvKksQ2PCu5nufb2zbk)
- Updating daily metadata for pool CHEEMS / SOL (2c1cu1aGiw6kNn7Dwz76QjAgwyDkP7YWHv8izZge4JwE)
- Updating daily metadata for pool CROWN / SOL (GgvEV7WiEM9t7xobkBUw54x5XSXZH9mZ1vf43hCmrVyX)
- Updating daily metadata for pool Chud / SOL (33e6dhGgeCzQ7eUTVSaZhcHtVJrAH8wFEQ7X2rWvv9bG)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool DRIFT / USDC (7psbtZGcKHuW2Jw7C9NoGb1GPxq5kS4NbjXfUPsUFsgX)
- Updating daily metadata for pool DROID / SOL (5fD53Jsxd6XovQu32YPUbWY9aPvt7Fo1pUDRrkcJ4F2K)
- Updating daily metadata for pool DUKO / SOL (3EQArUpQ9dAbMawfJvPX3JmqWnyc4opiqyjKHbMd2V7L)
- Updating daily metadata for pool FIDA / SOL (A73SMfz2Skp4PkQpDd1UrMiwaseazk5wKKAWKf96Dcys)
- Updating daily metadata for pool GMT / SOL (EngvuHZ7JobyTfkDzi5djqncCgmumrB4qLTacRefQon2)
- Updating daily metadata for pool GMT / USDC (7PNQ9rfSGCbCC3XTeL6CwwAzevqQGvKXeXMxP2TjS7rM)
- Updating daily metadata for pool GP / SOL (9E2AwC5SzfPy3otpmHHVwGNoM2b2SLrJ9M1T5inXrCPE)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool GP / USDC (9vNKzrrHAjqjuTGLjCBo9Ai4edMYgP9dsG4tFZ2hF251)
- Updating daily metadata for pool HNT / MOBILE (45zpzzpZquaVv4BAdXfzNbuba7DAXV32d1sTrUh5wcnW)
- Updating daily metadata for pool HNT / SOL (5qrvgpvr55Eo7c5bBcwopdiQ6TpvceiRm42yjHTbtDvc)
- Updating daily metadata for pool HNT / SOL (CSP4RmB6kBHkKGkyTnzt9zYYXDA8SbZ5Do5WfZcjqjE4)
- Updating daily metadata for pool HNT / USDC (8JwS5zosnLFT84S1NebSp1HS6aeaxviXYS7jBh9PQ8vp)
- Updating daily metadata for pool HONEY / JitoSOL (Ex7Sz5zdutJqfxL3cgTCcg3BT7mK7TKEpJDdM9xGHaWg)
- Updating daily metadata for pool HONEY / SOL (ENYEHSyduTbFN1xoSEGaLu7c1F8AqKucdscMuV5Yypy2)
- Updating daily metadata for pool INF / SOL (DxD41srN8Xk9QfYjdNXF9tTnP6qQxeF2bZF8s1eN62Pe)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool INF / USDC (6wySwcwYkbqdQDnG9DgN6mez57nv8RnjcTmjxp36o9rZ)
- Updating daily metadata for pool IO / SOL (HB1fZ4PRzHZx5Mc4wizNXTAf298HRMNw1w1S6Y9P6jUP)
- Updating daily metadata for pool IOT / SOL (Cx6WqD4ViGZArdA3nPcneNBJxECftm36CZbtdb7jw9gP)
- Updating daily metadata for pool JLP / SOL (6a3m2EgFFKfsFuQtP4LJJXPcAe3TQYXNyHUjjZpUxYgd)
- Updating daily metadata for pool JLP / SOL (4GZWN1bzbkBXwxMhyj9aQd5ZfovoLNSheBtukKdMtNXS)
- Updating daily metadata for pool JLP / SOL (4Z1A4Wy4Qj1GDC98YXYCuEkibVsHXoB1pMsn2crqEgDF)
- Updating daily metadata for pool JLP / USDC (6NUiVmsNjsi4AfsMsEiaezsaV9N4N1ZrD4jEnuWNRvyb)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool JLP / USDC (HD8i7qr1hd9ida6sN71RbkLxbWcbvZS4NA5CY6vfcDpj)
- Updating daily metadata for pool JLP / USDC (8Z8uy3xqUZqvpJ9QvJz7muz5aosL2VjGfJcEA99JK364)
- Updating daily metadata for pool JLP / WBTC (7rCWunLK7a2uLYog5e79Nxz5gfXptJaotjBuqv29JKz)
- Updating daily metadata for pool JTO / JitoSOL (G2FiE1yn9N9ZJx5e1E2LxxMnHvb1H3hCuHLPfKJ98smA)
- Updating daily metadata for pool JTO / SOL (2UhFnySoJi6c89aydGAGS7ZRemo2dbkFRhvSJqDX4gHJ)
- Updating daily metadata for pool JUP / SOL (C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz)
- Updating daily metadata for pool JUP / SOL (DkVN7RKTNjSSER5oyurf3vddQU2ZneSCYwXvpErvTCFA)
- Updating daily metadata for pool JUP / SOL (EgcgMpmGnGvU3Wa8T6gvmEN6pfSXXSxPTbYNEHVh8cZk)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool JUP / USDC (4Ui9QdDNuUaAGqCPcDSp191QrixLzQiLxJ1Gnqvz3szP)
- Updating daily metadata for pool JUP / USDC (HrLmpzp8Nu5wkn9SGZYSS9Ms6deTvMgGc6BETp4161ZX)
- Updating daily metadata for pool JUP / USDC (GaRZqVJCpRMsM12ZTaP13zpaY6npHw2SeruZRWY2GGfn)
- Updating daily metadata for pool JUP / USDT (AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD)
- Updating daily metadata for pool JUP / bSOL (KdcztfHmVNRd5qY7oR7AdoNhcpHhjXKesK9JTBnNxwL)
- Updating daily metadata for pool JitoSOL / SOL (Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp)
- Updating daily metadata for pool JitoSOL / USDC (CxvWVYvvSymLWQNLqo61zjr1L86B4HpxoELbAAjxyb8H)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s  38%|███▊      | 59/156 [12:49<41:03, 25.40s/it] 38%|███▊      | 60/156 [12:53<30:39, 19.16s/it] 39%|███▉      | 61/156 [12:58<23:31, 14.86s/it] 40%|███▉      | 62/156 [13:03<18:27, 11.78s/it] 40%|████      | 63/156 [13:06<14:24,  9.29s/it] 41%|████      | 64/156 [13:09<11:33,  7.54s/it] 42%|████▏     | 65/156 [13:13<09:41,  6.39s/it] 42%|████▏     | 66/156 [13:17<08:33,  5.71s/it] 43%|████▎     | 67/156 [14:26<36:35, 24.67s/it] 44%|████▎     | 68/156 [14:30<26:58, 18.39s/it] 44%|████▍     | 69/156 [14:34<20:27, 14.11s/it] 45%|████▍     | 70/156 [14:38<15:59, 11.16s/it] 46%|████▌     | 71/156 [14:43<12:51,  9.07s/it] 46%|████▌     | 72/156 [14:47<10:45,  7.69s/it] 47%|████▋     | 73/156 [14:51<09:13,  6.66s/it] 47%|████▋     | 74/156 [16:00<34:30, 25.25s/it] 48%|████▊     | 75/156 [16:04<25:40, 19.02s/it] 49%|████▊     | 76/156 [16:08<19:18, 14.49s/it] 49%|████▉     | 77/156 [16:12<15:00, 11.40s/it] 50%|█████     | 78/156 [16:16<11:51,  9.12s/it] 51%|█████     | 79/156 [16:20<09:46,  7.62s/it] 51%|█████▏    | 80/156 [16:25<08:19,  6.57s/it] 52%|█████▏    | 81/156 [16:29<07:17,  5.83s/it] 53%|█████▎    | 82/156 [17:38<30:48, 24.98s/it] 53%|█████▎    | 83/156 [17:43<22:49, 18.76s/it] 54%|█████▍    | 84/156 [17:47<17:21, 14.46s/it] 54%|█████▍    | 85/156 [17:51<13:31, 11.43s/it] 55%|█████▌    | 86/156 [17:55<10:37,  9.11s/it] 56%|█████▌    | 87/156 [17:59<08:46,  7.63s/it] 56%|█████▋    | 88/156 [18:04<07:34,  6.68s/it] 57%|█████▋    | 89/156 [19:13<28:32, 25.55s/it] 58%|█████▊    | 90/156 [19:17<21:02, 19.12s/it] 58%|█████▊    | 91/156 [19:22<15:54, 14.69s/it] 59%|█████▉    | 92/156 [19:26<12:18, 11.55s/it] 60%|█████▉    | 93/156 [19:30<09:42,  9.25s/it] 60%|██████    | 94/156 [19:34<07:51,  7.60s/it] 61%|██████    | 95/156 [19:38<06:46,  6.67s/it] 62%|██████▏   | 96/156 [19:42<05:56,  5.94s/it] 62%|██████▏   | 97/156 [20:57<26:08, 26.59s/it] 63%|██████▎   | 98/156 [21:02<19:21, 20.02s/it] 63%|██████▎   | 99/156 [21:06<14:29, 15.25s/it] 64%|██████▍   | 100/156 [21:10<11:07, 11.92s/it] 65%|██████▍   | 101/156 [21:15<08:59,  9.82s/it] 65%|██████▌   | 102/156 [21:19<07:15,  8.06s/it] 66%|██████▌   | 103/156 [21:24<06:23,  7.24s/it] 67%|██████▋   | 104/156 [22:33<22:24, 25.85s/it] 67%|██████▋   | 105/156 [22:37<16:13, 19.10s/it] 68%|██████▊   | 106/156 [22:41<12:18, 14.76s/it] 69%|██████▊   | 107/156 [22:46<09:26, 11.57s/it] 69%|██████▉   | 108/156 [22:50<07:29,  9.37s/it] 70%|██████▉   | 109/156 [22:54<06:04,  7.76s/it] 71%|███████   | 110/156 [22:59<05:15,  6.85s/it] 71%|███████   | 111/156 [23:02<04:22,  5.84s/it] 72%|███████▏  | 112/156 [24:11<18:13, 24.86s/it] 72%|███████▏  | 113/156 [24:15<13:22, 18.66s/it] 73%|███████▎  | 114/156 [24:19<09:58, 14.24s/it] 74%|███████▎  | 115/156 [24:24<07:47, 11.40s/it] 74%|███████▍  | 116/156 [24:29<06:13,  9.33s/it] 75%|███████▌  | 117/156 [24:33<05:03,  7.79s/it]34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool JupSOL / SOL (DtYKbQELgMZ3ihFUrCcCs9gy4djcUuhwgR7UpxVpP2Tg)
- Updating daily metadata for pool KMNO / SOL (5E2cHo3DQnRjB3zWHKUs86RPqCeLboMgKV9WjxFwUjhV)
- Updating daily metadata for pool LST / SOL (HJVNnnRj1xz25P9215AHQUvGXoS6MKtJASjgrrwD7GnP)
- Updating daily metadata for pool META / USDC (6dyEn3YXFkVzN5EKKJhQML8LXKFczQ8uY5cnsmqTTZo1)
- Updating daily metadata for pool MNDE / USDC (3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF)
- Updating daily metadata for pool MNDE / mSOL (BVXNG6BrL2Tn3NmppnMeXHjBHTaQSnSnLE99JKwZSWPg)
- Updating daily metadata for pool MOBILE / SOL (8S24t7whcEUn8VuBRXwritKRy27NfdSWLrRz5gwQXJ9f)
- Updating daily metadata for pool MOBILE / SOL (8EyL9NRDo8DfE5rywgnu8KFfm8P7MjYT8wjNUQyGwst8)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool MYRS / SOL (GzCjqtkSemjoutLkicfqEk5J1RXMXRZ3uPi6VhG99Pkt)
- Updating daily metadata for pool MYRS / USDC (49qy7oiG4U47N9cSWNSGuzMZnujJDG83XjBU4ffsSMVU)
- Updating daily metadata for pool NEON / SOL (GUWM1arUyDnkMGCHvJu3yt1qomJ988utqC3dFN2AUCDT)
- Updating daily metadata for pool NOS / RENDER (66y7ViQ6mUyYa1sPDRrroPuAAuTeN1Cb4jKb6FEE5sR1)
- Updating daily metadata for pool NOS / SOL (3fCMZfWg48aUNYtdPm9KG4kmwseenr446fLAnafd2Uvj)
- Updating daily metadata for pool NYAN / USDC (57xTqqteaKhQuXYSzNxb6yqZKHw7vBfsj927DznumJGP)
- Updating daily metadata for pool ORCA / RAY (2ntusSb3dL7LBuTys6wG9pAyB3hWvaei1oa2MucX3Pct)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool ORCA / SOL (Hxw77h9fEx598afiiZunwHaX3vYu9UskDk9EpPNZp1mG)
- Updating daily metadata for pool ORCA / SOL (HrvrhPtNq8JEGbi7dhMFuXy1Jms49nZrgC6GLjZ3cPyo)
- Updating daily metadata for pool ORCA / USDC (5Z66YYYaTmmx1R4mATAGLSc8aV4Vfy5tNdJQzk1GP9RF)
- Updating daily metadata for pool ORCA / USDC (FSBDeuLQ19Hse2jzhHfDwTvEoeRWD7UKK4BM1zgbV7pY)
- Updating daily metadata for pool PIP / SOL (CwNh2zfNcZt6bDmDvdztLAEJGxNW54rhC33Zki39AT6N)
- Updating daily metadata for pool POLIS / ATLAS (9HfmWsAwjZpCMCfqFZz3iLtd5K6vxFAY9SmM2XbtUVbZ)
- Updating daily metadata for pool POPCAT / $WIF (CyJG5PGm5hKrdnmszBUJQfjpSHVJqwUSYffXyTyTAyXv)
- Updating daily metadata for pool POPCAT / SOL (AHTTzwf3GmVMJdxWM8v2MSxyjZj8rQR6hyAC3g9477Yj)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool POPCAT / SOL (FjpUZNi84CrL8NPBkqTsMyLkxMHJfAjDZiZ65zsEgXnR)
- Updating daily metadata for pool POPCAT / USDC (82vnbMa6vxm1a9TWy54s1dYRCYeGYZUPQnn7iVLBvmtx)
- Updating daily metadata for pool PRCL / JitoSOL (BWGP8CqKgg1rV6kYNFnbGbSYXxnYah4BQg1Sw1Nqy7hm)
- Updating daily metadata for pool PRCL / USDC (7AhWSjMiXtxgZ6tB39V65sF3Rguv6arkbLWyk2v9MxRV)
- Updating daily metadata for pool PVEai / SOL (7cu4pvo6jQMkT6oDwi1QeoYBjhNDmvSr1zGdoGKDGPab)
- Updating daily metadata for pool PYTH / SOL (8erNF5u3CHrqZJXtkfY8CjSxFYF1yqHmN8uDbAhk6tWM)
- Updating daily metadata for pool RAY / SOL (5sgXhG1c9VBceg6aVQguK3NnbPfHinERZj86As6zW5Be)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool RAY / SOL (D3C5H4YU7rjhK7ePrGtK1Bhde4tfeiTr98axdZnA7tet)
- Updating daily metadata for pool RENDER / SOL (AmXR6YeshKfnx23gQpJkktUXoGb7cAXi5hWk3w2pw1a3)
- Updating daily metadata for pool RENDER / USDC (HAWNPF6UZ8YgWisd2gsECNSchdn3hQTEujsZtGxKM1MW)
- Updating daily metadata for pool SADCAT / SOL (HUFBLzQH2To6WMnMkAhzgSZwCj9efK3AupV4rNwgSeyR)
- Updating daily metadata for pool SAMO / SOL (4nAiqm5QiZiwh1sMpmuJJdVUH12Fst2kPPzApNfppQGd)
- Updating daily metadata for pool SHDW / SOL (6jwmmjnx3mDbA6QauSZ7DY8Z1B8wZncxXM1tJd2unpuS)
- Updating daily metadata for pool SOL / USDC (83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d)
- Updating daily metadata for pool SOL / USDC (Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool SOL / USDC (FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q)
- Updating daily metadata for pool SOL / USDC (7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm)
- Updating daily metadata for pool SOL / USDC (21gTfxAnhUDjJGZJDkTXctGFKT8TeiXx6pN1CEg9K1uW)
- Updating daily metadata for pool SOL / USDT (B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR)
- Updating daily metadata for pool SOL / USDT (AhhoxZDmsg2snm85vPjqzYzEYESoKfb4KmTj4HrBBNwY)
- Updating daily metadata for pool SOL / USDT (7RsgjGLoW1J2YH6wpcnxhN7QZXYxhFz8cf39Ledd8Dmd)
- Updating daily metadata for pool TAPS / SOL (BaC9aMbmsFLDXKfrPrH6Qhztcfp8NK2haC3yiZiLHwGp)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool TM / SOL (BiYCZzTC1m9PnasT8XNy16fPxFmKtnUFS8eoayBQCT9Z)
- Updating daily metadata for pool TNSR / JitoSOL (7QkfgyWzWSw11z2FBiJhz8zAL9RwqSRvuXruDrJ3MFA1)
- Updating daily metadata for pool TNSR / USDC (GJLLHqhu7HnTZzwSBgqLsshdnDP5NwTnwkjTxQbGrf9Q)
- Updating daily metadata for pool TRUMP / SOL (7m4HiA2ARD1WN3QbrXqwq4ocPcvuaXHq7XqetGzRpCu8)
- Updating daily metadata for pool USDC / CHONKY (C5wdmudkJgTHiY7WF7MtygqB6GC3Mc7o8879Qe8sVk1j)
- Updating daily metadata for pool USDC / EURC (EpDiEa7KPoeVfnYfhPSoqsQ4KukGFuRZMfsuNY2rCqgt)
- Updating daily metadata for pool USDC / GOFX (Cst4B1VGkirLHFW5iVUYYL3uc4Wys5uQVVnvNaYPs4XA)
- Updating daily metadata for pool USDC / JitoSOL (5hWJUNTtEtKmKgDXpthJXXRRmJrz5vJ7uJzrUNVdrwLg)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool USDC / JitoSOL (GgAqL1Lfs3zYZK6Gea9Bey5jmPbK8c4dmBbe5gPeYQEz)
- Updating daily metadata for pool USDC / PIP (8hzcovwXaP7ZPqbiDiT6CrknqzBp479Tw3kCfDYWseG6)
- Updating daily metadata for pool USDC / PYTH (CKyPqtvkenW8SRYsK4z5txZzCsCZFS2NTCrzLMmtXTPz)
- Updating daily metadata for pool USDC / SOL (HJPjoWUrhoZzkNfRpHuieeFk9WcZWjwy6PBjZ81ngndJ)
- Updating daily metadata for pool USDC / USDC (8hcwA1hr1bLGLHXBCadXWDgxsc1BTe4hAKPcQgTVNXL4)
- Updating daily metadata for pool USDC / USDT (4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4) 76%|███████▌  | 118/156 [24:37<04:13,  6.67s/it] 76%|███████▋  | 119/156 [25:46<15:34, 25.27s/it] 77%|███████▋  | 120/156 [25:50<11:23, 18.99s/it] 78%|███████▊  | 121/156 [25:55<08:33, 14.68s/it] 78%|███████▊  | 122/156 [26:00<06:42, 11.85s/it] 79%|███████▉  | 123/156 [26:03<05:08,  9.35s/it] 79%|███████▉  | 124/156 [26:07<04:09,  7.79s/it] 80%|████████  | 125/156 [26:11<03:21,  6.50s/it] 81%|████████  | 126/156 [26:15<02:53,  5.78s/it] 81%|████████▏ | 127/156 [27:25<12:04, 24.99s/it] 82%|████████▏ | 128/156 [27:30<08:50, 18.95s/it] 83%|████████▎ | 129/156 [27:34<06:36, 14.67s/it] 83%|████████▎ | 130/156 [27:39<05:01, 11.59s/it] 84%|████████▍ | 131/156 [27:43<03:53,  9.32s/it] 85%|████████▍ | 132/156 [27:47<03:06,  7.79s/it] 85%|████████▌ | 133/156 [27:51<02:33,  6.67s/it] 86%|████████▌ | 134/156 [29:01<09:20, 25.50s/it] 87%|████████▋ | 135/156 [29:04<06:39, 19.00s/it] 87%|████████▋ | 136/156 [29:09<04:53, 14.69s/it] 88%|████████▊ | 137/156 [29:14<03:41, 11.63s/it] 88%|████████▊ | 138/156 [29:18<02:51,  9.51s/it] 89%|████████▉ | 139/156 [29:22<02:13,  7.86s/it] 90%|████████▉ | 140/156 [29:27<01:49,  6.85s/it] 90%|█████████ | 141/156 [29:31<01:31,  6.11s/it] 91%|█████████ | 142/156 [30:40<05:50, 25.03s/it] 92%|█████████▏| 143/156 [30:45<04:05, 18.85s/it] 92%|█████████▏| 144/156 [30:49<02:54, 14.51s/it] 93%|█████████▎| 145/156 [30:54<02:07, 11.60s/it] 94%|█████████▎| 146/156 [30:57<01:31,  9.13s/it] 94%|█████████▍| 147/156 [31:02<01:09,  7.77s/it] 95%|█████████▍| 148/156 [31:06<00:53,  6.72s/it] 96%|█████████▌| 149/156 [32:16<02:58, 25.57s/it] 96%|█████████▌| 150/156 [32:20<01:54, 19.16s/it] 97%|█████████▋| 151/156 [32:23<01:12, 14.40s/it] 97%|█████████▋| 152/156 [32:27<00:45, 11.37s/it] 98%|█████████▊| 153/156 [32:31<00:27,  9.17s/it] 99%|█████████▊| 154/156 [32:35<00:15,  7.62s/it] 99%|█████████▉| 155/156 [32:40<00:06,  6.73s/it]100%|██████████| 156/156 [32:44<00:00,  5.81s/it]100%|██████████| 156/156 [32:44<00:00, 12.59s/it]
-
- Updating daily metadata for pool USDH / SOL (AiZa55wSymdzwU9VDoWBrjizFjHdzDJFRNks2enP35sw)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool USDH / USDC (Fvtf8VCjnkqbETA6KtyHYqHm26ut6w184Jqm4MQjPvv7)
- Updating daily metadata for pool USDH / USDT (963Do8Jw6aKaRB7YLorAGrqAJqhWqVGAStkewfne1SX5)
- Updating daily metadata for pool USDT / SOL (FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC)
- Updating daily metadata for pool USDT / SOL (5zVKUoZcQkFCGcRHVHiyGAJRrZj1by67pW3dmvguFvwd)
- Updating daily metadata for pool USDY / USDC (7riFsDxbskTqDtCSjev2jN9hyAJqeKmbWqgfiWD6ikUC)
- Updating daily metadata for pool VCHF / USDC (CsPcrAP4gL2JGJxRBLvw4fTBkGdpRDqiSSCfJ8WcTiUk)
- Updating daily metadata for pool VEUR / USDC (25q3qfHDpRq53HjPsxYEqnLg47rbMH5JiwTRY8HX9mP9)
- Updating daily metadata for pool W / JitoSOL (4m8mH8fBQ5DcYB3dum8SrauF8rCUUYHFEqEaqvKXJALt)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool W / SOL (CwHuXNNkj5inuj2ZXaU1DtjA5Nxfoiy4nNoc1PQQJxTR)
- Updating daily metadata for pool WAVAX / SOL (3q1kUwCvG2jEvYczQcrQiLWEnAnfNSnvT6dCD14ruf6U)
- Updating daily metadata for pool WBNB / SOL (CmyuZJEnEoTnSD5mJLMtzLApocPNszZCWwkiEBbUD3ez)
- Updating daily metadata for pool WBNB / USDC (4gnf3XVk8A3vxFnnPtVqSFZa1SEPeXogvcetpZm6Q3pS)
- Updating daily metadata for pool WBTC / SOL (B5EwJVDuAauzUEEdwvbuXzbFFgEYnUqqS37TUM1c4PQA)
- Updating daily metadata for pool WBTC / SOL (CjZhHQnNUWdMtHzpJuxrPsK2hydeqKRyiMuzLQ3BMDkK)
- Updating daily metadata for pool WBTC / USDC (55BrDTCLWayM16GwrMEQU57o4PTm6ceF9wavSdNZcEiy)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool WBTC / WETH (C3km5MDqBiA3eVBsy8r6D8AtTr4J8j2TpRTiXaydkiCx)
- Updating daily metadata for pool WEN / SOL (7BZzoP3QB2zK3R7WqRzjS5fpeeErgdy3HGzxXrN97aEY)
- Updating daily metadata for pool WETH / SOL (HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF)
- Updating daily metadata for pool WETH / USDC (AU971DrPyhhrpRnmEBp5pDTWL2ny7nofb5vYBjDJkR2E)
- Updating daily metadata for pool ZEUS / SOL (Dsxt7wUigQU5puH9nHjmfwnUenMycAgsFtrkfggLh8P1)
- Updating daily metadata for pool ZYN / SOL (6P1JbEwYEaXZBP9skhXpZZaaHqbXvd8VwdqNUsk9QkPU)
- Updating daily metadata for pool bSOL / JitoSOL (5snaYowgJDfuM1LPbTNUYHbgkKHtVVnzHiiLDWUV2hh8)
- Updating daily metadata for pool bSOL / SOL (8phK65jxmTPEN158xLgSr4oZvssw9SyTErpNZj3g7px4)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool bSOL / VCHF (9Ef9cnck4rn1ZezSJvVUqHnA1TehGBiYw6Y2LTSuWEQW)
- Updating daily metadata for pool bSOL / VEUR (DVwtABQwmjx9DosuZWGkAv1kiibgAAPoaFJB3jTHfo2V)
- Updating daily metadata for pool bSOL / mSOL (CwZbEdMZdxjnPLcRGRz8PwuvA4tK4iBmS9YZrMvnrNJr)
- Updating daily metadata for pool bonkSOL / SOL (BQ5kRSSVu4v5T31fDSw3wMKcvMYWewrDVwZZrsJ3Vy7X)
- Updating daily metadata for pool mSOL / JitoSOL (HZsTF6VHdQy2W6cfEEqqpoTFKocx7Ch5c4TnWucXkAYv)
- Updating daily metadata for pool mSOL / JitoSOL (8dxebMPEZjYJvE5JfC9iicZt9pkATBLW1PFgRHi5wGGv)
- Updating daily metadata for pool mSOL / SOL (HQcY5n2zP6rW74fyFEhWeBd3LnJpBcZechkvJpmdb8cx)
- Limit of 30 calls/min reached, waiting for 65s
-65s 64s 63s 62s 61s 60s 59s 58s 57s 56s 55s 54s 53s 52s 51s 50s 49s 48s 47s 46s 45s 44s 43s 42s 41s 40s 39s 38s 37s 36s 35s 34s 33s 32s 31s 30s 29s 28s 27s 26s 25s 24s 23s 22s 21s 20s 19s 18s 17s 16s 15s 14s 13s 12s 11s 10s 9s 8s 7s 6s 5s 4s 3s 2s 1s  Updating daily metadata for pool mSOL / USDC (AiMZS5U3JMvpdvsr1KeaMiS354Z1DeSg5XjA4yYRxtFf)
- Updating daily metadata for pool mSOL / USDC (AqJ5JYNb7ApkJwvbuXxPnTtKeuizjvC1s2fkp382y9LC)
- Updating daily metadata for pool picoSOL / SOL (8YAauxoiTm4Y32zkbqjTtSW21psE8DoNos39pzhpJ25m)
- Updating daily metadata for pool sSOL / SOL (8X5tAh7EcafARDGhmLHxkiG5CousuB1yLtYsbuM9tD1T)
- Updating daily metadata for pool stSOL / SOL (2AEWSvUds1wsufnsDPCXjFsJCMJH5SNNm7fSF4kxys9a)
- Updating daily metadata for pool vSOL / SOL (AJuD76pBTNwCvD1wE9vBM8qwqKUHbj8BsUXzwWtuJ2We)
- Updating daily metadata for pool wfragSOL / JitoSOL (5xfKkFmhzNhHKTFUkh4PJmHSWB6LpRvhJcUMKzPP6md2)
-[2025-08-11T09:28:57Z] Pushing changes to GitHub...
-[master 1483b16] Auto-update: 2025-08-11T09:29:10Z
- 161 files changed, 380 insertions(+), 189 deletions(-)
- create mode 100644 logs/metadata_updater_2025-08-11T08:56:06Z.log
-To https://github.com/asierhv/izpi.git
-   946e3a5..1483b16  master -> master
