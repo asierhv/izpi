@@ -13,7 +13,7 @@ app.add_middleware(
 )
 
 DATA_DIR = "/home/wbug/projects/izpi/metadata/pools/pools_metadata"
-
+ 
 @app.get("/pool/{address}")
 def get_pool_metadata(address: str):
     file_path = f"{DATA_DIR}/{address}.json"
