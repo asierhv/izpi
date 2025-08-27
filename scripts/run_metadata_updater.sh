@@ -19,6 +19,7 @@ LOGFILE="logs/metadata_updater_$(date -u +'%Y-%m-%d_%H:%M:%S_UTC').log"
     python scripts/metadata_updater.py
 
     echo "[$(date -u +'%Y-%m-%d %H:%M:%S UTC')] Pushing changes to GitHub..."
+    git pull --rebase
     git add .
     git commit -m "Auto-update: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
     git push
