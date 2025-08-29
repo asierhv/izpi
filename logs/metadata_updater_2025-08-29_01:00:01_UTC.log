@@ -658,3 +658,14 @@ Metadata for pool wfragSOL / JitoSOL (5xfKkFmhzNhHKTFUkh4PJmHSWB6LpRvhJcUMKzPP6m
 [2025-08-29 01:33:38 UTC] Pushing changes to GitHub...
 error: cannot pull with rebase: You have unstaged changes.
 error: please commit or stash them.
+[master a2c56b8] Auto-update: 2025-08-29 01:33:53 UTC
+ 158 files changed, 821 insertions(+), 156 deletions(-)
+ create mode 100644 logs/metadata_updater_2025-08-29_01:00:01_UTC.log
+To https://github.com/asierhv/izpi.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/asierhv/izpi.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
