@@ -1,0 +1,6 @@
+[2025-08-30 01:00:01 UTC] Running metadata_updater.py...
+Traceback (most recent call last):
+  File "/home/wbug/projects/izpi/scripts/metadata_updater.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-08-30 01:00:01 UTC] Pushing changes to GitHub...
