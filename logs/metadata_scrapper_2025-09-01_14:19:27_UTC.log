@@ -1,6 +1,0 @@
-[2025-09-01 14:19:27 UTC] Running metadata_scrapper.py...
-  File "/home/wbug/projects/izpi/scripts/metadata_scrapper.py", line 283
-    tqdm.write(f"TVL history not available for pool: {pool_info["name"]} ({pool_info["address"]})")
-                                                                 ^^^^
-SyntaxError: f-string: unmatched '['
-[2025-09-01 14:19:27 UTC] Pushing changes to GitHub...

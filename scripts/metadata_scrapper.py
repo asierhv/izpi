@@ -280,7 +280,7 @@ def pools_creation(network, dex, ignore_steps=[]):
         if pool_info["tvl_history_available"]:
             create_pool_metadata(pool_info, query_data_dict, utc_now)
         else:
-            tqdm.write(f"TVL history not available for pool: {pool_info["name"]} ({pool_info["address"]})")
+            tqdm.write(f"TVL history not available for pool: {pool_info['name']} ({pool_info['address']})")
     
     tqdm.write(f"\n------ POOLS CREATION COMPLETED - {utc_now.strftime('%Y-%m-%dT%H:%M:%SZ')}------\n")
 
