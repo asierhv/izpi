@@ -287,6 +287,6 @@ def pools_creation(network, dex, ignore_steps=None):
 if __name__ == "__main__":
     network = "solana"
     dex = "orca"
-    ignore_steps = ["A","B"]
-    # pools_creation(network, dex)
-    pools_creation(network, dex, ignore_steps)
+    pools_creation(network, dex)
+    # ignore_steps = ["A","B"]
+    # pools_creation(network, dex, ignore_steps)

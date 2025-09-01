@@ -1,0 +1,12 @@
+[2025-09-01 09:14:40 UTC] Running metadata_scrapper.py...
+
+------ POOLS CREATION - 2025-09-01 09:14:41------
+
+Traceback (most recent call last):
+  File "/mnt/c/workspace/izpi/scripts/metadata_scrapper.py", line 290, in <module>
+    pools_creation(network, dex)
+  File "/mnt/c/workspace/izpi/scripts/metadata_scrapper.py", line 260, in pools_creation
+    if not "A" in ignore_steps:
+           ^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+[2025-09-01 09:14:41 UTC] Pushing changes to GitHub...
