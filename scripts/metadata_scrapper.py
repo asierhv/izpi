@@ -18,7 +18,7 @@ def call_get_request(endpoint):
     retries = 0
     while retries < max_retries:
         if CALLS_COUNTER >= 30:
-            tqdm.write("Limit of 30 calls/min reached, waiting for 65s...")
+            tqdm.write(f"Limit of 30 calls/min reached, waiting for 65s...")
             for _ in tqdm(range(65, 0, -1), disable=not sys.stdout.isatty()):
                 time.sleep(1)
             CALLS_COUNTER = 0
@@ -29,7 +29,7 @@ def call_get_request(endpoint):
             if response.status_code == 200:
                 return response.json()
             elif response.status_code == 401:
-                tqdm.write("Data not available for input timestamp")
+                tqdm.write(f"Data not available for input timestamp")
                 return None
             retries += 1
             tqdm.write(f"\nRetry {retries}/{max_retries}: Response Error {response.status_code}, retrying...")
@@ -280,7 +280,7 @@ def pools_creation(network, dex, ignore_steps=[]):
         if pool_info["tvl_history_available"]:
             create_pool_metadata(pool_info, query_data_dict, utc_now)
         else:
-            tqdm.write("TVL history not available for pool:", pool_info["name"], pool_info["address"])
+            tqdm.write(f"TVL history not available for pool: {pool_info["name"]} ({pool_info["address"]})")
     
     tqdm.write(f"\n------ POOLS CREATION COMPLETED - {utc_now.strftime('%Y-%m-%dT%H:%M:%SZ')}------\n")
 
