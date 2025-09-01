@@ -47,13 +47,13 @@ def call_get_request(endpoint):
 def get_top_pools_info(network, dex, top_pools_info=None, sort: str="default"):
     # Get top 200 pools on dex from geckoterminal, sorted by default (trend), volume_usd or tx_count
     pools_info = []
+    repeated_pools = 0
     tqdm.write(f"Getting top 200 pools on {network}/{dex}")
     for n in tqdm(range(10), disable=not sys.stdout.isatty()):
         endpoint = f"https://api.geckoterminal.com/api/v2/networks/{network}/dexes/{dex}/pools?page={n+1}"
         if sort in ("h24_volume_usd_desc","h24_tx_count_desc"):
             endpoint += f"&sort={sort}"
         response_data = call_get_request(endpoint)
-        repeated_pools = 0
         for entry in response_data["data"]:
             entry_dict = {
                 "name": entry["attributes"]["name"],
@@ -67,10 +67,10 @@ def get_top_pools_info(network, dex, top_pools_info=None, sort: str="default"):
                     pools_info.append(entry_dict)
                 else:
                     repeated_pools+=1
-                    tqdm.write("REPEATED POOL:", entry_dict)
+                    tqdm.write(f"REPEATED POOL: {entry_dict}")
             else:
                 pools_info.append(entry_dict)
-    tqdm.write("Total Repeated Pools:",repeated_pools)
+    tqdm.write(f"Total Repeated Pools: {repeated_pools}")
     
     # Writes or updates the total_top_pools.json file with the new pools
     if top_pools_info == None:

@@ -1,0 +1,46 @@
+[2025-09-01 09:25:14 UTC] Running metadata_scrapper.py...
+
+------ POOLS CREATION - 2025-09-01 09:25:15------
+
+
+Step A: Getting top pools info for solana/orca...
+Getting top 200 pools on solana/orca
+Total Repeated Pools: 0
+Getting top 200 pools on solana/orca
+Total Repeated Pools: 0
+Getting top 200 pools on solana/orca
+REPEATED POOL: {'name': 'JupSOL / mSOL', 'network': 'solana', 'dex': 'orca', 'address': '2NjYrAWmiNE4dRRB8am4p8mWcvBDg22aGB9AfQoU9RRJ', 'pool_created_at': '2025-08-12T17:05:25Z'}
+Total Repeated Pools: 0
+
+Step B: Getting dune query data for top pools in solana/orca...
+Manually Execute the Query:
+    - Copy the Query from: './metadata/queries/dune_query.sql'
+    - Paste and Run at: https://dune.com/queries/4516255
+    --- Press 'ENTER' when the Query is finished ---TVL data available for 161/477 pools
+
+Step C: Creating pools metadata for top pools in solana/orca...
+Updating metadata for pool $WIF / SOL (D6NdKrKNQPmRZCCnG1GqXtF7MMoHB7qR6GU5TkG59Qz1)
+Limit of 30 calls/min reached, waiting for 65s...
+Updating metadata for pool $WIF / SOL (CZrvf5cCAf7BoTqLkMEsT2czJobx4zfppHez2gaJwHaF)
+Updating metadata for pool $WIF / SOL (4E6q7eJE6vBNdquqzYYi5gvzd5MNpwiQKhjbRTRQGuQd)
+Limit of 30 calls/min reached, waiting for 65s...
+Updating metadata for pool $WIF / SOL (A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b)
+Updating metadata for pool $WIF / USDC (CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes)
+Updating metadata for pool $michi / SOL (CATK9eqtn8Qwv95JF6JS4xdC4AYRFqPiuswG7fwsnVN1)
+Limit of 30 calls/min reached, waiting for 65s...
+Updating metadata for pool -/+ / SOL (7PRRUiYzmK81hJzbbDFNpCR3aQbZCmtwTyaoPYndCoq6)
+Updating metadata for pool ACS / SOL (Go1hKVCy6mJA5usvHNV74KjkexXG2AUporDMeda5icmb)
+Limit of 30 calls/min reached, waiting for 65s...
+Updating metadata for pool ACS / USDC (DQbUWSZoLpuHmdyqnJzpctPBkoKdJhMZdE1cJoWk2pnt)
+Data not available for input timestamp
+Data not available for input timestamp
+Traceback (most recent call last):
+  File "/mnt/c/workspace/izpi/scripts/metadata_scrapper.py", line 290, in <module>
+    pools_creation(network, dex)
+  File "/mnt/c/workspace/izpi/scripts/metadata_scrapper.py", line 283, in pools_creation
+    tqdm.write("TVL history not available for pool:", pool_info["name"], pool_info["address"])
+  File "/mnt/c/workspace/venvs/venv_izpi/lib/python3.12/site-packages/tqdm/std.py", line 722, in write
+    fp.write(s)
+    ^^^^^^^^
+AttributeError: 'str' object has no attribute 'write'
+[2025-09-01 10:47:33 UTC] Pushing changes to GitHub...
