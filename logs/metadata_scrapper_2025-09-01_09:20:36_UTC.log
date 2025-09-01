@@ -1,0 +1,20 @@
+[2025-09-01 09:20:36 UTC] Running metadata_scrapper.py...
+
+------ POOLS CREATION - 2025-09-01 09:20:36------
+
+
+Step A: Getting top pools info for solana/orca...
+Getting top 200 pools on solana/orca
+Traceback (most recent call last):
+  File "/mnt/c/workspace/izpi/scripts/metadata_scrapper.py", line 290, in <module>
+    pools_creation(network, dex)
+  File "/mnt/c/workspace/izpi/scripts/metadata_scrapper.py", line 262, in pools_creation
+    top_pools_info = get_top_pools_info(network, dex, top_pools_info=top_pools_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/workspace/izpi/scripts/metadata_scrapper.py", line 73, in get_top_pools_info
+    tqdm.write("Total Repeated Pools:",repeated_pools)
+  File "/mnt/c/workspace/venvs/venv_izpi/lib/python3.12/site-packages/tqdm/std.py", line 722, in write
+    fp.write(s)
+    ^^^^^^^^
+AttributeError: 'int' object has no attribute 'write'
+[2025-09-01 09:20:45 UTC] Pushing changes to GitHub...
