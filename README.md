@@ -2,11 +2,13 @@
 **Terminal 1**:
 ```bash
 cd ~/izpi
+source ~/venv_izpi/bin/activate
 uvicorn api.main:app --reload --port 9000
 ```
 **Terminal 2**  
 ```bash
 cd ~/izpi/web
+source ~/venv_izpi/bin/activate
 python -m http.server 8000
 ```
  
