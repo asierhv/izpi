@@ -249,7 +249,8 @@ def pools_creation(network, dex, ignore_steps=[]):
 
     with open("./keys/dune_api_key", "r", encoding="utf-8") as f:
         dune_api_key = f.read().strip()
-    query_id = 4516255
+    with open("./keys/dune_api_query_id", "r", encoding="utf-8") as f:
+        query_id = int(f.read().strip())
     if not os.path.exists("./metadata/pools/top_pools_info.json"):
         top_pools_info = None
     else:
