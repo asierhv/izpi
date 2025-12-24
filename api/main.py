@@ -27,13 +27,6 @@ def get_pool_metadata(address: str):
     print(f"File exists: {file_path.exists()}")
     print(f"DATA_DIR exists: {DATA_DIR.exists()}")
     
-    # List files in directory to verify
-    if DATA_DIR.exists():
-        files = list(DATA_DIR.glob("*.json"))
-        print(f"Found {len(files)} JSON files in directory")
-        if len(files) > 0:
-            print(f"First few files: {[f.name for f in files[:5]]}")
-    
     if not file_path.exists():
         raise HTTPException(status_code=404, detail=f"Pool not found: {address}")
     
