@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import os
 import json
+import Path
 
 app = FastAPI()
 
@@ -11,8 +12,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-DATA_DIR = "/home/wbug/projects/izpi/metadata/pools/pools_metadata"
+BASE_DIR = Path(__file__).parent
+DATA_DIR = BASE_DIR / "metadata/pools/pools_metadata"
  
 @app.get("/pool/{address}")
 def get_pool_metadata(address: str):
