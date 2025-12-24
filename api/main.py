@@ -8,9 +8,9 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=["http://localhost:8000"],
+    allow_methods=["GET"],
+    allow_headers=["Content-Type", "Authorization"],
 )
 
 BASE_DIR = Path(__file__).parent.parent
