@@ -1,0 +1,1342 @@
+[2025-08-14 01:00:01 UTC] Running metadata_updater.py...
+
+------ POOLS DAILY UPDATE - 2025-08-14 01:00:02 ------
+
+Step 1: Getting TVL info for available pools...
+Step 2: Updating daily metadata for each pool...
+Metadata for pool $WIF / SOL (D6NdKrKNQPmRZCCnG1GqXtF7MMoHB7qR6GU5TkG59Qz1) is NOT UP to date.
+Last update: 2025-08-13 07:47:26
+Updating daily metadata for pool $WIF / SOL (D6NdKrKNQPmRZCCnG1GqXtF7MMoHB7qR6GU5TkG59Qz1)
+Metadata for pool $WIF / SOL (CZrvf5cCAf7BoTqLkMEsT2czJobx4zfppHez2gaJwHaF) is NOT UP to date.
+Last update: 2025-08-13 07:47:26
+Updating daily metadata for pool $WIF / SOL (CZrvf5cCAf7BoTqLkMEsT2czJobx4zfppHez2gaJwHaF)
+Metadata for pool $WIF / SOL (4E6q7eJE6vBNdquqzYYi5gvzd5MNpwiQKhjbRTRQGuQd) is NOT UP to date.
+Last update: 2025-08-13 07:47:26
+Updating daily metadata for pool $WIF / SOL (4E6q7eJE6vBNdquqzYYi5gvzd5MNpwiQKhjbRTRQGuQd)
+Metadata for pool $WIF / SOL (A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b) is NOT UP to date.
+Last update: 2025-08-13 07:47:26
+Updating daily metadata for pool $WIF / SOL (A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b)
+Metadata for pool $WIF / USDC (CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes) is NOT UP to date.
+Last update: 2025-08-13 07:47:26
+Updating daily metadata for pool $WIF / USDC (CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes)
+Metadata for pool $michi / SOL (CATK9eqtn8Qwv95JF6JS4xdC4AYRFqPiuswG7fwsnVN1) is NOT UP to date.
+Last update: 2025-08-13 07:47:26
+Updating daily metadata for pool $michi / SOL (CATK9eqtn8Qwv95JF6JS4xdC4AYRFqPiuswG7fwsnVN1)
+Metadata for pool -/+ / SOL (7PRRUiYzmK81hJzbbDFNpCR3aQbZCmtwTyaoPYndCoq6) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool -/+ / SOL (7PRRUiYzmK81hJzbbDFNpCR3aQbZCmtwTyaoPYndCoq6)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool ACS / SOL (Go1hKVCy6mJA5usvHNV74KjkexXG2AUporDMeda5icmb) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ACS / SOL (Go1hKVCy6mJA5usvHNV74KjkexXG2AUporDMeda5icmb)
+Metadata for pool ACS / USDC (DQbUWSZoLpuHmdyqnJzpctPBkoKdJhMZdE1cJoWk2pnt) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ACS / USDC (DQbUWSZoLpuHmdyqnJzpctPBkoKdJhMZdE1cJoWk2pnt)
+Metadata for pool AUDIO / USDC (CZqbzVsVQQtBy1X15gHxipWFnC3Hkar62LJ49XuSK7ec) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool AUDIO / USDC (CZqbzVsVQQtBy1X15gHxipWFnC3Hkar62LJ49XuSK7ec)
+Metadata for pool AVAX / USDC (CeGZNd2ap2ke8JreVqDXikSrxhnSERh9G8WAt4yqMcBs) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool AVAX / USDC (CeGZNd2ap2ke8JreVqDXikSrxhnSERh9G8WAt4yqMcBs)
+Metadata for pool BLOCK / SOL (DpRTn6DsBMVMkW2s9DaT4EGHBFSXx6vs7gVpw7niFJLY) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool BLOCK / SOL (DpRTn6DsBMVMkW2s9DaT4EGHBFSXx6vs7gVpw7niFJLY)
+Metadata for pool BORG / SOL (KLkoFSdCpC523EmmGyJxmLv1A3itv8ZNiMZwjPmFXuk) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool BORG / SOL (KLkoFSdCpC523EmmGyJxmLv1A3itv8ZNiMZwjPmFXuk)
+Metadata for pool Bonk / $WIF (56Ekyu6uBpTna3LR2qkjHjNbDNkCLWK2Lt3uWh7J2R8Z) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool Bonk / $WIF (56Ekyu6uBpTna3LR2qkjHjNbDNkCLWK2Lt3uWh7J2R8Z)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool Bonk / SOL (5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool Bonk / SOL (5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9)
+Metadata for pool Bonk / SOL (3ne4mWqdYuNiYrYZC9TrA3FcfuFdErghH97vNPbjicr1) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool Bonk / SOL (3ne4mWqdYuNiYrYZC9TrA3FcfuFdErghH97vNPbjicr1)
+Metadata for pool Bonk / SOL (5r2SKyVDAmaj8HJak4qRS2oLCn2caf3jmrJi8ikRKj6s) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool Bonk / SOL (5r2SKyVDAmaj8HJak4qRS2oLCn2caf3jmrJi8ikRKj6s)
+Metadata for pool Bonk / SOL (4VG8VFNo3EXiTA75mhh48qv55S6m3VA2uTQCzEt8kczb) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool Bonk / SOL (4VG8VFNo3EXiTA75mhh48qv55S6m3VA2uTQCzEt8kczb)
+Metadata for pool Bonk / USDC (8QaXeHBrShJTdtN1rWCccBxpSVvKksQ2PCu5nufb2zbk) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool Bonk / USDC (8QaXeHBrShJTdtN1rWCccBxpSVvKksQ2PCu5nufb2zbk)
+Metadata for pool CHEEMS / SOL (2c1cu1aGiw6kNn7Dwz76QjAgwyDkP7YWHv8izZge4JwE) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool CHEEMS / SOL (2c1cu1aGiw6kNn7Dwz76QjAgwyDkP7YWHv8izZge4JwE)
+Metadata for pool CROWN / SOL (GgvEV7WiEM9t7xobkBUw54x5XSXZH9mZ1vf43hCmrVyX) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool CROWN / SOL (GgvEV7WiEM9t7xobkBUw54x5XSXZH9mZ1vf43hCmrVyX)
+Metadata for pool Chud / SOL (33e6dhGgeCzQ7eUTVSaZhcHtVJrAH8wFEQ7X2rWvv9bG) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool Chud / SOL (33e6dhGgeCzQ7eUTVSaZhcHtVJrAH8wFEQ7X2rWvv9bG)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool DRIFT / USDC (7psbtZGcKHuW2Jw7C9NoGb1GPxq5kS4NbjXfUPsUFsgX) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool DRIFT / USDC (7psbtZGcKHuW2Jw7C9NoGb1GPxq5kS4NbjXfUPsUFsgX)
+Metadata for pool DROID / SOL (5fD53Jsxd6XovQu32YPUbWY9aPvt7Fo1pUDRrkcJ4F2K) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool DROID / SOL (5fD53Jsxd6XovQu32YPUbWY9aPvt7Fo1pUDRrkcJ4F2K)
+Metadata for pool DUKO / SOL (3EQArUpQ9dAbMawfJvPX3JmqWnyc4opiqyjKHbMd2V7L) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool DUKO / SOL (3EQArUpQ9dAbMawfJvPX3JmqWnyc4opiqyjKHbMd2V7L)
+Metadata for pool FIDA / SOL (A73SMfz2Skp4PkQpDd1UrMiwaseazk5wKKAWKf96Dcys) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool FIDA / SOL (A73SMfz2Skp4PkQpDd1UrMiwaseazk5wKKAWKf96Dcys)
+Metadata for pool GMT / SOL (EngvuHZ7JobyTfkDzi5djqncCgmumrB4qLTacRefQon2) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool GMT / SOL (EngvuHZ7JobyTfkDzi5djqncCgmumrB4qLTacRefQon2)
+Metadata for pool GMT / USDC (7PNQ9rfSGCbCC3XTeL6CwwAzevqQGvKXeXMxP2TjS7rM) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool GMT / USDC (7PNQ9rfSGCbCC3XTeL6CwwAzevqQGvKXeXMxP2TjS7rM)
+Metadata for pool GP / SOL (9E2AwC5SzfPy3otpmHHVwGNoM2b2SLrJ9M1T5inXrCPE) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool GP / SOL (9E2AwC5SzfPy3otpmHHVwGNoM2b2SLrJ9M1T5inXrCPE)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool GP / USDC (9vNKzrrHAjqjuTGLjCBo9Ai4edMYgP9dsG4tFZ2hF251) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool GP / USDC (9vNKzrrHAjqjuTGLjCBo9Ai4edMYgP9dsG4tFZ2hF251)
+Metadata for pool HNT / MOBILE (45zpzzpZquaVv4BAdXfzNbuba7DAXV32d1sTrUh5wcnW) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool HNT / MOBILE (45zpzzpZquaVv4BAdXfzNbuba7DAXV32d1sTrUh5wcnW)
+Metadata for pool HNT / SOL (5qrvgpvr55Eo7c5bBcwopdiQ6TpvceiRm42yjHTbtDvc) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool HNT / SOL (5qrvgpvr55Eo7c5bBcwopdiQ6TpvceiRm42yjHTbtDvc)
+Metadata for pool HNT / SOL (CSP4RmB6kBHkKGkyTnzt9zYYXDA8SbZ5Do5WfZcjqjE4) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool HNT / SOL (CSP4RmB6kBHkKGkyTnzt9zYYXDA8SbZ5Do5WfZcjqjE4)
+Metadata for pool HNT / USDC (8JwS5zosnLFT84S1NebSp1HS6aeaxviXYS7jBh9PQ8vp) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool HNT / USDC (8JwS5zosnLFT84S1NebSp1HS6aeaxviXYS7jBh9PQ8vp)
+Metadata for pool HONEY / JitoSOL (Ex7Sz5zdutJqfxL3cgTCcg3BT7mK7TKEpJDdM9xGHaWg) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool HONEY / JitoSOL (Ex7Sz5zdutJqfxL3cgTCcg3BT7mK7TKEpJDdM9xGHaWg)
+Metadata for pool HONEY / SOL (ENYEHSyduTbFN1xoSEGaLu7c1F8AqKucdscMuV5Yypy2) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool HONEY / SOL (ENYEHSyduTbFN1xoSEGaLu7c1F8AqKucdscMuV5Yypy2)
+Metadata for pool INF / SOL (DxD41srN8Xk9QfYjdNXF9tTnP6qQxeF2bZF8s1eN62Pe) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool INF / SOL (DxD41srN8Xk9QfYjdNXF9tTnP6qQxeF2bZF8s1eN62Pe)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool INF / USDC (6wySwcwYkbqdQDnG9DgN6mez57nv8RnjcTmjxp36o9rZ) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool INF / USDC (6wySwcwYkbqdQDnG9DgN6mez57nv8RnjcTmjxp36o9rZ)
+Metadata for pool IO / SOL (HB1fZ4PRzHZx5Mc4wizNXTAf298HRMNw1w1S6Y9P6jUP) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool IO / SOL (HB1fZ4PRzHZx5Mc4wizNXTAf298HRMNw1w1S6Y9P6jUP)
+Metadata for pool IOT / SOL (Cx6WqD4ViGZArdA3nPcneNBJxECftm36CZbtdb7jw9gP) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool IOT / SOL (Cx6WqD4ViGZArdA3nPcneNBJxECftm36CZbtdb7jw9gP)
+Metadata for pool JLP / SOL (6a3m2EgFFKfsFuQtP4LJJXPcAe3TQYXNyHUjjZpUxYgd) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JLP / SOL (6a3m2EgFFKfsFuQtP4LJJXPcAe3TQYXNyHUjjZpUxYgd)
+Metadata for pool JLP / SOL (4GZWN1bzbkBXwxMhyj9aQd5ZfovoLNSheBtukKdMtNXS) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JLP / SOL (4GZWN1bzbkBXwxMhyj9aQd5ZfovoLNSheBtukKdMtNXS)
+Metadata for pool JLP / SOL (4Z1A4Wy4Qj1GDC98YXYCuEkibVsHXoB1pMsn2crqEgDF) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JLP / SOL (4Z1A4Wy4Qj1GDC98YXYCuEkibVsHXoB1pMsn2crqEgDF)
+Metadata for pool JLP / USDC (6NUiVmsNjsi4AfsMsEiaezsaV9N4N1ZrD4jEnuWNRvyb) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JLP / USDC (6NUiVmsNjsi4AfsMsEiaezsaV9N4N1ZrD4jEnuWNRvyb)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool JLP / USDC (HD8i7qr1hd9ida6sN71RbkLxbWcbvZS4NA5CY6vfcDpj) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JLP / USDC (HD8i7qr1hd9ida6sN71RbkLxbWcbvZS4NA5CY6vfcDpj)
+Metadata for pool JLP / USDC (8Z8uy3xqUZqvpJ9QvJz7muz5aosL2VjGfJcEA99JK364) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JLP / USDC (8Z8uy3xqUZqvpJ9QvJz7muz5aosL2VjGfJcEA99JK364)
+Metadata for pool JLP / WBTC (7rCWunLK7a2uLYog5e79Nxz5gfXptJaotjBuqv29JKz) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JLP / WBTC (7rCWunLK7a2uLYog5e79Nxz5gfXptJaotjBuqv29JKz)
+Metadata for pool JTO / JitoSOL (G2FiE1yn9N9ZJx5e1E2LxxMnHvb1H3hCuHLPfKJ98smA) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JTO / JitoSOL (G2FiE1yn9N9ZJx5e1E2LxxMnHvb1H3hCuHLPfKJ98smA)
+Metadata for pool JTO / SOL (2UhFnySoJi6c89aydGAGS7ZRemo2dbkFRhvSJqDX4gHJ) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JTO / SOL (2UhFnySoJi6c89aydGAGS7ZRemo2dbkFRhvSJqDX4gHJ)
+Metadata for pool JUP / SOL (C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / SOL (C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz)
+Metadata for pool JUP / SOL (DkVN7RKTNjSSER5oyurf3vddQU2ZneSCYwXvpErvTCFA) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / SOL (DkVN7RKTNjSSER5oyurf3vddQU2ZneSCYwXvpErvTCFA)
+Metadata for pool JUP / SOL (EgcgMpmGnGvU3Wa8T6gvmEN6pfSXXSxPTbYNEHVh8cZk) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / SOL (EgcgMpmGnGvU3Wa8T6gvmEN6pfSXXSxPTbYNEHVh8cZk)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool JUP / USDC (4Ui9QdDNuUaAGqCPcDSp191QrixLzQiLxJ1Gnqvz3szP) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / USDC (4Ui9QdDNuUaAGqCPcDSp191QrixLzQiLxJ1Gnqvz3szP)
+Metadata for pool JUP / USDC (HrLmpzp8Nu5wkn9SGZYSS9Ms6deTvMgGc6BETp4161ZX) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / USDC (HrLmpzp8Nu5wkn9SGZYSS9Ms6deTvMgGc6BETp4161ZX)
+Metadata for pool JUP / USDC (GaRZqVJCpRMsM12ZTaP13zpaY6npHw2SeruZRWY2GGfn) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / USDC (GaRZqVJCpRMsM12ZTaP13zpaY6npHw2SeruZRWY2GGfn)
+Metadata for pool JUP / USDT (AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / USDT (AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD)
+Metadata for pool JUP / bSOL (KdcztfHmVNRd5qY7oR7AdoNhcpHhjXKesK9JTBnNxwL) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JUP / bSOL (KdcztfHmVNRd5qY7oR7AdoNhcpHhjXKesK9JTBnNxwL)
+Metadata for pool JitoSOL / SOL (Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JitoSOL / SOL (Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp)
+Metadata for pool JitoSOL / USDC (CxvWVYvvSymLWQNLqo61zjr1L86B4HpxoELbAAjxyb8H) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JitoSOL / USDC (CxvWVYvvSymLWQNLqo61zjr1L86B4HpxoELbAAjxyb8H)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool JupSOL / SOL (DtYKbQELgMZ3ihFUrCcCs9gy4djcUuhwgR7UpxVpP2Tg) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool JupSOL / SOL (DtYKbQELgMZ3ihFUrCcCs9gy4djcUuhwgR7UpxVpP2Tg)
+Metadata for pool KMNO / SOL (5E2cHo3DQnRjB3zWHKUs86RPqCeLboMgKV9WjxFwUjhV) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool KMNO / SOL (5E2cHo3DQnRjB3zWHKUs86RPqCeLboMgKV9WjxFwUjhV)
+Metadata for pool LST / SOL (HJVNnnRj1xz25P9215AHQUvGXoS6MKtJASjgrrwD7GnP) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool LST / SOL (HJVNnnRj1xz25P9215AHQUvGXoS6MKtJASjgrrwD7GnP)
+Metadata for pool META / USDC (6dyEn3YXFkVzN5EKKJhQML8LXKFczQ8uY5cnsmqTTZo1) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool META / USDC (6dyEn3YXFkVzN5EKKJhQML8LXKFczQ8uY5cnsmqTTZo1)
+Metadata for pool MNDE / USDC (3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool MNDE / USDC (3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF)
+Metadata for pool MNDE / mSOL (BVXNG6BrL2Tn3NmppnMeXHjBHTaQSnSnLE99JKwZSWPg) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool MNDE / mSOL (BVXNG6BrL2Tn3NmppnMeXHjBHTaQSnSnLE99JKwZSWPg)
+Metadata for pool MOBILE / SOL (8S24t7whcEUn8VuBRXwritKRy27NfdSWLrRz5gwQXJ9f) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool MOBILE / SOL (8S24t7whcEUn8VuBRXwritKRy27NfdSWLrRz5gwQXJ9f)
+Metadata for pool MOBILE / SOL (8EyL9NRDo8DfE5rywgnu8KFfm8P7MjYT8wjNUQyGwst8) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool MOBILE / SOL (8EyL9NRDo8DfE5rywgnu8KFfm8P7MjYT8wjNUQyGwst8)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool MYRS / SOL (GzCjqtkSemjoutLkicfqEk5J1RXMXRZ3uPi6VhG99Pkt) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool MYRS / SOL (GzCjqtkSemjoutLkicfqEk5J1RXMXRZ3uPi6VhG99Pkt)
+Metadata for pool MYRS / USDC (49qy7oiG4U47N9cSWNSGuzMZnujJDG83XjBU4ffsSMVU) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool MYRS / USDC (49qy7oiG4U47N9cSWNSGuzMZnujJDG83XjBU4ffsSMVU)
+Metadata for pool NEON / SOL (GUWM1arUyDnkMGCHvJu3yt1qomJ988utqC3dFN2AUCDT) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool NEON / SOL (GUWM1arUyDnkMGCHvJu3yt1qomJ988utqC3dFN2AUCDT)
+Metadata for pool NOS / RENDER (66y7ViQ6mUyYa1sPDRrroPuAAuTeN1Cb4jKb6FEE5sR1) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool NOS / RENDER (66y7ViQ6mUyYa1sPDRrroPuAAuTeN1Cb4jKb6FEE5sR1)
+Metadata for pool NOS / SOL (3fCMZfWg48aUNYtdPm9KG4kmwseenr446fLAnafd2Uvj) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool NOS / SOL (3fCMZfWg48aUNYtdPm9KG4kmwseenr446fLAnafd2Uvj)
+Metadata for pool NYAN / USDC (57xTqqteaKhQuXYSzNxb6yqZKHw7vBfsj927DznumJGP) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool NYAN / USDC (57xTqqteaKhQuXYSzNxb6yqZKHw7vBfsj927DznumJGP)
+Metadata for pool ORCA / RAY (2ntusSb3dL7LBuTys6wG9pAyB3hWvaei1oa2MucX3Pct) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ORCA / RAY (2ntusSb3dL7LBuTys6wG9pAyB3hWvaei1oa2MucX3Pct)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool ORCA / SOL (Hxw77h9fEx598afiiZunwHaX3vYu9UskDk9EpPNZp1mG) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ORCA / SOL (Hxw77h9fEx598afiiZunwHaX3vYu9UskDk9EpPNZp1mG)
+Metadata for pool ORCA / SOL (HrvrhPtNq8JEGbi7dhMFuXy1Jms49nZrgC6GLjZ3cPyo) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ORCA / SOL (HrvrhPtNq8JEGbi7dhMFuXy1Jms49nZrgC6GLjZ3cPyo)
+Metadata for pool ORCA / USDC (5Z66YYYaTmmx1R4mATAGLSc8aV4Vfy5tNdJQzk1GP9RF) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ORCA / USDC (5Z66YYYaTmmx1R4mATAGLSc8aV4Vfy5tNdJQzk1GP9RF)
+Metadata for pool ORCA / USDC (FSBDeuLQ19Hse2jzhHfDwTvEoeRWD7UKK4BM1zgbV7pY) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ORCA / USDC (FSBDeuLQ19Hse2jzhHfDwTvEoeRWD7UKK4BM1zgbV7pY)
+Metadata for pool PIP / SOL (CwNh2zfNcZt6bDmDvdztLAEJGxNW54rhC33Zki39AT6N) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool PIP / SOL (CwNh2zfNcZt6bDmDvdztLAEJGxNW54rhC33Zki39AT6N)
+Metadata for pool POLIS / ATLAS (9HfmWsAwjZpCMCfqFZz3iLtd5K6vxFAY9SmM2XbtUVbZ) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool POLIS / ATLAS (9HfmWsAwjZpCMCfqFZz3iLtd5K6vxFAY9SmM2XbtUVbZ)
+Metadata for pool POPCAT / $WIF (CyJG5PGm5hKrdnmszBUJQfjpSHVJqwUSYffXyTyTAyXv) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool POPCAT / $WIF (CyJG5PGm5hKrdnmszBUJQfjpSHVJqwUSYffXyTyTAyXv)
+Metadata for pool POPCAT / SOL (AHTTzwf3GmVMJdxWM8v2MSxyjZj8rQR6hyAC3g9477Yj) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool POPCAT / SOL (AHTTzwf3GmVMJdxWM8v2MSxyjZj8rQR6hyAC3g9477Yj)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool POPCAT / SOL (FjpUZNi84CrL8NPBkqTsMyLkxMHJfAjDZiZ65zsEgXnR) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool POPCAT / SOL (FjpUZNi84CrL8NPBkqTsMyLkxMHJfAjDZiZ65zsEgXnR)
+Metadata for pool POPCAT / USDC (82vnbMa6vxm1a9TWy54s1dYRCYeGYZUPQnn7iVLBvmtx) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool POPCAT / USDC (82vnbMa6vxm1a9TWy54s1dYRCYeGYZUPQnn7iVLBvmtx)
+Metadata for pool PRCL / JitoSOL (BWGP8CqKgg1rV6kYNFnbGbSYXxnYah4BQg1Sw1Nqy7hm) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool PRCL / JitoSOL (BWGP8CqKgg1rV6kYNFnbGbSYXxnYah4BQg1Sw1Nqy7hm)
+Metadata for pool PRCL / USDC (7AhWSjMiXtxgZ6tB39V65sF3Rguv6arkbLWyk2v9MxRV) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool PRCL / USDC (7AhWSjMiXtxgZ6tB39V65sF3Rguv6arkbLWyk2v9MxRV)
+Metadata for pool PVEai / SOL (7cu4pvo6jQMkT6oDwi1QeoYBjhNDmvSr1zGdoGKDGPab) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool PVEai / SOL (7cu4pvo6jQMkT6oDwi1QeoYBjhNDmvSr1zGdoGKDGPab)
+Metadata for pool PYTH / SOL (8erNF5u3CHrqZJXtkfY8CjSxFYF1yqHmN8uDbAhk6tWM) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool PYTH / SOL (8erNF5u3CHrqZJXtkfY8CjSxFYF1yqHmN8uDbAhk6tWM)
+Metadata for pool RAY / SOL (5sgXhG1c9VBceg6aVQguK3NnbPfHinERZj86As6zW5Be) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool RAY / SOL (5sgXhG1c9VBceg6aVQguK3NnbPfHinERZj86As6zW5Be)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool RAY / SOL (D3C5H4YU7rjhK7ePrGtK1Bhde4tfeiTr98axdZnA7tet) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool RAY / SOL (D3C5H4YU7rjhK7ePrGtK1Bhde4tfeiTr98axdZnA7tet)
+Metadata for pool RENDER / SOL (AmXR6YeshKfnx23gQpJkktUXoGb7cAXi5hWk3w2pw1a3) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool RENDER / SOL (AmXR6YeshKfnx23gQpJkktUXoGb7cAXi5hWk3w2pw1a3)
+Metadata for pool RENDER / USDC (HAWNPF6UZ8YgWisd2gsECNSchdn3hQTEujsZtGxKM1MW) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool RENDER / USDC (HAWNPF6UZ8YgWisd2gsECNSchdn3hQTEujsZtGxKM1MW)
+Metadata for pool SADCAT / SOL (HUFBLzQH2To6WMnMkAhzgSZwCj9efK3AupV4rNwgSeyR) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SADCAT / SOL (HUFBLzQH2To6WMnMkAhzgSZwCj9efK3AupV4rNwgSeyR)
+Metadata for pool SAMO / SOL (4nAiqm5QiZiwh1sMpmuJJdVUH12Fst2kPPzApNfppQGd) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SAMO / SOL (4nAiqm5QiZiwh1sMpmuJJdVUH12Fst2kPPzApNfppQGd)
+Metadata for pool SHDW / SOL (6jwmmjnx3mDbA6QauSZ7DY8Z1B8wZncxXM1tJd2unpuS) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SHDW / SOL (6jwmmjnx3mDbA6QauSZ7DY8Z1B8wZncxXM1tJd2unpuS)
+Metadata for pool SOL / USDC (83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDC (83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d)
+Metadata for pool SOL / USDC (Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDC (Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool SOL / USDC (FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDC (FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q)
+Metadata for pool SOL / USDC (7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDC (7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm)
+Metadata for pool SOL / USDC (21gTfxAnhUDjJGZJDkTXctGFKT8TeiXx6pN1CEg9K1uW) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDC (21gTfxAnhUDjJGZJDkTXctGFKT8TeiXx6pN1CEg9K1uW)
+Metadata for pool SOL / USDT (B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDT (B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR)
+Metadata for pool SOL / USDT (AhhoxZDmsg2snm85vPjqzYzEYESoKfb4KmTj4HrBBNwY) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDT (AhhoxZDmsg2snm85vPjqzYzEYESoKfb4KmTj4HrBBNwY)
+Metadata for pool SOL / USDT (7RsgjGLoW1J2YH6wpcnxhN7QZXYxhFz8cf39Ledd8Dmd) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool SOL / USDT (7RsgjGLoW1J2YH6wpcnxhN7QZXYxhFz8cf39Ledd8Dmd)
+Metadata for pool TAPS / SOL (BaC9aMbmsFLDXKfrPrH6Qhztcfp8NK2haC3yiZiLHwGp) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool TAPS / SOL (BaC9aMbmsFLDXKfrPrH6Qhztcfp8NK2haC3yiZiLHwGp)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool TM / SOL (BiYCZzTC1m9PnasT8XNy16fPxFmKtnUFS8eoayBQCT9Z) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool TM / SOL (BiYCZzTC1m9PnasT8XNy16fPxFmKtnUFS8eoayBQCT9Z)
+Metadata for pool TNSR / JitoSOL (7QkfgyWzWSw11z2FBiJhz8zAL9RwqSRvuXruDrJ3MFA1) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool TNSR / JitoSOL (7QkfgyWzWSw11z2FBiJhz8zAL9RwqSRvuXruDrJ3MFA1)
+Metadata for pool TNSR / USDC (GJLLHqhu7HnTZzwSBgqLsshdnDP5NwTnwkjTxQbGrf9Q) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool TNSR / USDC (GJLLHqhu7HnTZzwSBgqLsshdnDP5NwTnwkjTxQbGrf9Q)
+Metadata for pool TRUMP / SOL (7m4HiA2ARD1WN3QbrXqwq4ocPcvuaXHq7XqetGzRpCu8) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool TRUMP / SOL (7m4HiA2ARD1WN3QbrXqwq4ocPcvuaXHq7XqetGzRpCu8)
+Metadata for pool USDC / CHONKY (C5wdmudkJgTHiY7WF7MtygqB6GC3Mc7o8879Qe8sVk1j) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / CHONKY (C5wdmudkJgTHiY7WF7MtygqB6GC3Mc7o8879Qe8sVk1j)
+Metadata for pool USDC / EURC (EpDiEa7KPoeVfnYfhPSoqsQ4KukGFuRZMfsuNY2rCqgt) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / EURC (EpDiEa7KPoeVfnYfhPSoqsQ4KukGFuRZMfsuNY2rCqgt)
+Metadata for pool USDC / GOFX (Cst4B1VGkirLHFW5iVUYYL3uc4Wys5uQVVnvNaYPs4XA) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / GOFX (Cst4B1VGkirLHFW5iVUYYL3uc4Wys5uQVVnvNaYPs4XA)
+Metadata for pool USDC / JitoSOL (5hWJUNTtEtKmKgDXpthJXXRRmJrz5vJ7uJzrUNVdrwLg) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / JitoSOL (5hWJUNTtEtKmKgDXpthJXXRRmJrz5vJ7uJzrUNVdrwLg)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool USDC / JitoSOL (GgAqL1Lfs3zYZK6Gea9Bey5jmPbK8c4dmBbe5gPeYQEz) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / JitoSOL (GgAqL1Lfs3zYZK6Gea9Bey5jmPbK8c4dmBbe5gPeYQEz)
+Metadata for pool USDC / PIP (8hzcovwXaP7ZPqbiDiT6CrknqzBp479Tw3kCfDYWseG6) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / PIP (8hzcovwXaP7ZPqbiDiT6CrknqzBp479Tw3kCfDYWseG6)
+Metadata for pool USDC / PYTH (CKyPqtvkenW8SRYsK4z5txZzCsCZFS2NTCrzLMmtXTPz) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / PYTH (CKyPqtvkenW8SRYsK4z5txZzCsCZFS2NTCrzLMmtXTPz)
+Metadata for pool USDC / SOL (HJPjoWUrhoZzkNfRpHuieeFk9WcZWjwy6PBjZ81ngndJ) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / SOL (HJPjoWUrhoZzkNfRpHuieeFk9WcZWjwy6PBjZ81ngndJ)
+Metadata for pool USDC / USDC (8hcwA1hr1bLGLHXBCadXWDgxsc1BTe4hAKPcQgTVNXL4) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / USDC (8hcwA1hr1bLGLHXBCadXWDgxsc1BTe4hAKPcQgTVNXL4)
+Metadata for pool USDC / USDT (4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDC / USDT (4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4)
+Metadata for pool USDH / SOL (AiZa55wSymdzwU9VDoWBrjizFjHdzDJFRNks2enP35sw) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDH / SOL (AiZa55wSymdzwU9VDoWBrjizFjHdzDJFRNks2enP35sw)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool USDH / USDC (Fvtf8VCjnkqbETA6KtyHYqHm26ut6w184Jqm4MQjPvv7) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDH / USDC (Fvtf8VCjnkqbETA6KtyHYqHm26ut6w184Jqm4MQjPvv7)
+Metadata for pool USDH / USDT (963Do8Jw6aKaRB7YLorAGrqAJqhWqVGAStkewfne1SX5) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDH / USDT (963Do8Jw6aKaRB7YLorAGrqAJqhWqVGAStkewfne1SX5)
+Metadata for pool USDT / SOL (FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDT / SOL (FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC)
+Metadata for pool USDT / SOL (5zVKUoZcQkFCGcRHVHiyGAJRrZj1by67pW3dmvguFvwd) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDT / SOL (5zVKUoZcQkFCGcRHVHiyGAJRrZj1by67pW3dmvguFvwd)
+Metadata for pool USDY / USDC (7riFsDxbskTqDtCSjev2jN9hyAJqeKmbWqgfiWD6ikUC) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool USDY / USDC (7riFsDxbskTqDtCSjev2jN9hyAJqeKmbWqgfiWD6ikUC)
+Metadata for pool VCHF / USDC (CsPcrAP4gL2JGJxRBLvw4fTBkGdpRDqiSSCfJ8WcTiUk) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool VCHF / USDC (CsPcrAP4gL2JGJxRBLvw4fTBkGdpRDqiSSCfJ8WcTiUk)
+Metadata for pool VEUR / USDC (25q3qfHDpRq53HjPsxYEqnLg47rbMH5JiwTRY8HX9mP9) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool VEUR / USDC (25q3qfHDpRq53HjPsxYEqnLg47rbMH5JiwTRY8HX9mP9)
+Metadata for pool W / JitoSOL (4m8mH8fBQ5DcYB3dum8SrauF8rCUUYHFEqEaqvKXJALt) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool W / JitoSOL (4m8mH8fBQ5DcYB3dum8SrauF8rCUUYHFEqEaqvKXJALt)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool W / SOL (CwHuXNNkj5inuj2ZXaU1DtjA5Nxfoiy4nNoc1PQQJxTR) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool W / SOL (CwHuXNNkj5inuj2ZXaU1DtjA5Nxfoiy4nNoc1PQQJxTR)
+Metadata for pool WAVAX / SOL (3q1kUwCvG2jEvYczQcrQiLWEnAnfNSnvT6dCD14ruf6U) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WAVAX / SOL (3q1kUwCvG2jEvYczQcrQiLWEnAnfNSnvT6dCD14ruf6U)
+Metadata for pool WBNB / SOL (CmyuZJEnEoTnSD5mJLMtzLApocPNszZCWwkiEBbUD3ez) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WBNB / SOL (CmyuZJEnEoTnSD5mJLMtzLApocPNszZCWwkiEBbUD3ez)
+Metadata for pool WBNB / USDC (4gnf3XVk8A3vxFnnPtVqSFZa1SEPeXogvcetpZm6Q3pS) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WBNB / USDC (4gnf3XVk8A3vxFnnPtVqSFZa1SEPeXogvcetpZm6Q3pS)
+Metadata for pool WBTC / SOL (B5EwJVDuAauzUEEdwvbuXzbFFgEYnUqqS37TUM1c4PQA) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WBTC / SOL (B5EwJVDuAauzUEEdwvbuXzbFFgEYnUqqS37TUM1c4PQA)
+Metadata for pool WBTC / SOL (CjZhHQnNUWdMtHzpJuxrPsK2hydeqKRyiMuzLQ3BMDkK) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WBTC / SOL (CjZhHQnNUWdMtHzpJuxrPsK2hydeqKRyiMuzLQ3BMDkK)
+Metadata for pool WBTC / USDC (55BrDTCLWayM16GwrMEQU57o4PTm6ceF9wavSdNZcEiy) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WBTC / USDC (55BrDTCLWayM16GwrMEQU57o4PTm6ceF9wavSdNZcEiy)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool WBTC / WETH (C3km5MDqBiA3eVBsy8r6D8AtTr4J8j2TpRTiXaydkiCx) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WBTC / WETH (C3km5MDqBiA3eVBsy8r6D8AtTr4J8j2TpRTiXaydkiCx)
+Metadata for pool WEN / SOL (7BZzoP3QB2zK3R7WqRzjS5fpeeErgdy3HGzxXrN97aEY) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WEN / SOL (7BZzoP3QB2zK3R7WqRzjS5fpeeErgdy3HGzxXrN97aEY)
+Metadata for pool WETH / SOL (HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WETH / SOL (HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF)
+Metadata for pool WETH / USDC (AU971DrPyhhrpRnmEBp5pDTWL2ny7nofb5vYBjDJkR2E) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool WETH / USDC (AU971DrPyhhrpRnmEBp5pDTWL2ny7nofb5vYBjDJkR2E)
+Metadata for pool ZEUS / SOL (Dsxt7wUigQU5puH9nHjmfwnUenMycAgsFtrkfggLh8P1) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ZEUS / SOL (Dsxt7wUigQU5puH9nHjmfwnUenMycAgsFtrkfggLh8P1)
+Metadata for pool ZYN / SOL (6P1JbEwYEaXZBP9skhXpZZaaHqbXvd8VwdqNUsk9QkPU) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool ZYN / SOL (6P1JbEwYEaXZBP9skhXpZZaaHqbXvd8VwdqNUsk9QkPU)
+Metadata for pool bSOL / JitoSOL (5snaYowgJDfuM1LPbTNUYHbgkKHtVVnzHiiLDWUV2hh8) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool bSOL / JitoSOL (5snaYowgJDfuM1LPbTNUYHbgkKHtVVnzHiiLDWUV2hh8)
+Metadata for pool bSOL / SOL (8phK65jxmTPEN158xLgSr4oZvssw9SyTErpNZj3g7px4) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool bSOL / SOL (8phK65jxmTPEN158xLgSr4oZvssw9SyTErpNZj3g7px4)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool bSOL / VCHF (9Ef9cnck4rn1ZezSJvVUqHnA1TehGBiYw6Y2LTSuWEQW) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool bSOL / VCHF (9Ef9cnck4rn1ZezSJvVUqHnA1TehGBiYw6Y2LTSuWEQW)
+Metadata for pool bSOL / VEUR (DVwtABQwmjx9DosuZWGkAv1kiibgAAPoaFJB3jTHfo2V) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool bSOL / VEUR (DVwtABQwmjx9DosuZWGkAv1kiibgAAPoaFJB3jTHfo2V)
+Metadata for pool bSOL / mSOL (CwZbEdMZdxjnPLcRGRz8PwuvA4tK4iBmS9YZrMvnrNJr) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool bSOL / mSOL (CwZbEdMZdxjnPLcRGRz8PwuvA4tK4iBmS9YZrMvnrNJr)
+Metadata for pool bonkSOL / SOL (BQ5kRSSVu4v5T31fDSw3wMKcvMYWewrDVwZZrsJ3Vy7X) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool bonkSOL / SOL (BQ5kRSSVu4v5T31fDSw3wMKcvMYWewrDVwZZrsJ3Vy7X)
+Metadata for pool mSOL / JitoSOL (HZsTF6VHdQy2W6cfEEqqpoTFKocx7Ch5c4TnWucXkAYv) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool mSOL / JitoSOL (HZsTF6VHdQy2W6cfEEqqpoTFKocx7Ch5c4TnWucXkAYv)
+Metadata for pool mSOL / JitoSOL (8dxebMPEZjYJvE5JfC9iicZt9pkATBLW1PFgRHi5wGGv) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool mSOL / JitoSOL (8dxebMPEZjYJvE5JfC9iicZt9pkATBLW1PFgRHi5wGGv)
+Metadata for pool mSOL / SOL (HQcY5n2zP6rW74fyFEhWeBd3LnJpBcZechkvJpmdb8cx) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool mSOL / SOL (HQcY5n2zP6rW74fyFEhWeBd3LnJpBcZechkvJpmdb8cx)
+Limit of 30 calls/min reached, waiting for 65s...
+Metadata for pool mSOL / USDC (AiMZS5U3JMvpdvsr1KeaMiS354Z1DeSg5XjA4yYRxtFf) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool mSOL / USDC (AiMZS5U3JMvpdvsr1KeaMiS354Z1DeSg5XjA4yYRxtFf)
+Metadata for pool mSOL / USDC (AqJ5JYNb7ApkJwvbuXxPnTtKeuizjvC1s2fkp382y9LC) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool mSOL / USDC (AqJ5JYNb7ApkJwvbuXxPnTtKeuizjvC1s2fkp382y9LC)
+Metadata for pool picoSOL / SOL (8YAauxoiTm4Y32zkbqjTtSW21psE8DoNos39pzhpJ25m) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool picoSOL / SOL (8YAauxoiTm4Y32zkbqjTtSW21psE8DoNos39pzhpJ25m)
+Metadata for pool sSOL / SOL (8X5tAh7EcafARDGhmLHxkiG5CousuB1yLtYsbuM9tD1T) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool sSOL / SOL (8X5tAh7EcafARDGhmLHxkiG5CousuB1yLtYsbuM9tD1T)
+Metadata for pool stSOL / SOL (2AEWSvUds1wsufnsDPCXjFsJCMJH5SNNm7fSF4kxys9a) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool stSOL / SOL (2AEWSvUds1wsufnsDPCXjFsJCMJH5SNNm7fSF4kxys9a)
+Metadata for pool vSOL / SOL (AJuD76pBTNwCvD1wE9vBM8qwqKUHbj8BsUXzwWtuJ2We) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool vSOL / SOL (AJuD76pBTNwCvD1wE9vBM8qwqKUHbj8BsUXzwWtuJ2We)
+Metadata for pool wfragSOL / JitoSOL (5xfKkFmhzNhHKTFUkh4PJmHSWB6LpRvhJcUMKzPP6md2) is NOT UP to date.
+Last update: 2025-08-13 07:52:18
+Updating daily metadata for pool wfragSOL / JitoSOL (5xfKkFmhzNhHKTFUkh4PJmHSWB6LpRvhJcUMKzPP6md2)
+Metadata for pool $WIF / SOL (D6NdKrKNQPmRZCCnG1GqXtF7MMoHB7qR6GU5TkG59Qz1) is UP to date.
+Metadata for pool $WIF / SOL (CZrvf5cCAf7BoTqLkMEsT2czJobx4zfppHez2gaJwHaF) is UP to date.
+Metadata for pool $WIF / SOL (4E6q7eJE6vBNdquqzYYi5gvzd5MNpwiQKhjbRTRQGuQd) is UP to date.
+Metadata for pool $WIF / SOL (A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b) is UP to date.
+Metadata for pool $WIF / USDC (CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes) is UP to date.
+Metadata for pool $michi / SOL (CATK9eqtn8Qwv95JF6JS4xdC4AYRFqPiuswG7fwsnVN1) is UP to date.
+Metadata for pool -/+ / SOL (7PRRUiYzmK81hJzbbDFNpCR3aQbZCmtwTyaoPYndCoq6) is UP to date.
+Metadata for pool ACS / SOL (Go1hKVCy6mJA5usvHNV74KjkexXG2AUporDMeda5icmb) is UP to date.
+Metadata for pool ACS / USDC (DQbUWSZoLpuHmdyqnJzpctPBkoKdJhMZdE1cJoWk2pnt) is UP to date.
+Metadata for pool AUDIO / USDC (CZqbzVsVQQtBy1X15gHxipWFnC3Hkar62LJ49XuSK7ec) is UP to date.
+Metadata for pool AVAX / USDC (CeGZNd2ap2ke8JreVqDXikSrxhnSERh9G8WAt4yqMcBs) is UP to date.
+Metadata for pool BLOCK / SOL (DpRTn6DsBMVMkW2s9DaT4EGHBFSXx6vs7gVpw7niFJLY) is UP to date.
+Metadata for pool BORG / SOL (KLkoFSdCpC523EmmGyJxmLv1A3itv8ZNiMZwjPmFXuk) is UP to date.
+Metadata for pool Bonk / $WIF (56Ekyu6uBpTna3LR2qkjHjNbDNkCLWK2Lt3uWh7J2R8Z) is UP to date.
+Metadata for pool Bonk / SOL (5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9) is UP to date.
+Metadata for pool Bonk / SOL (3ne4mWqdYuNiYrYZC9TrA3FcfuFdErghH97vNPbjicr1) is UP to date.
+Metadata for pool Bonk / SOL (5r2SKyVDAmaj8HJak4qRS2oLCn2caf3jmrJi8ikRKj6s) is UP to date.
+Metadata for pool Bonk / SOL (4VG8VFNo3EXiTA75mhh48qv55S6m3VA2uTQCzEt8kczb) is UP to date.
+Metadata for pool Bonk / USDC (8QaXeHBrShJTdtN1rWCccBxpSVvKksQ2PCu5nufb2zbk) is UP to date.
+Metadata for pool CHEEMS / SOL (2c1cu1aGiw6kNn7Dwz76QjAgwyDkP7YWHv8izZge4JwE) is UP to date.
+Metadata for pool CROWN / SOL (GgvEV7WiEM9t7xobkBUw54x5XSXZH9mZ1vf43hCmrVyX) is UP to date.
+Metadata for pool Chud / SOL (33e6dhGgeCzQ7eUTVSaZhcHtVJrAH8wFEQ7X2rWvv9bG) is UP to date.
+Metadata for pool DRIFT / USDC (7psbtZGcKHuW2Jw7C9NoGb1GPxq5kS4NbjXfUPsUFsgX) is UP to date.
+Metadata for pool DROID / SOL (5fD53Jsxd6XovQu32YPUbWY9aPvt7Fo1pUDRrkcJ4F2K) is UP to date.
+Metadata for pool DUKO / SOL (3EQArUpQ9dAbMawfJvPX3JmqWnyc4opiqyjKHbMd2V7L) is UP to date.
+Metadata for pool FIDA / SOL (A73SMfz2Skp4PkQpDd1UrMiwaseazk5wKKAWKf96Dcys) is UP to date.
+Metadata for pool GMT / SOL (EngvuHZ7JobyTfkDzi5djqncCgmumrB4qLTacRefQon2) is UP to date.
+Metadata for pool GMT / USDC (7PNQ9rfSGCbCC3XTeL6CwwAzevqQGvKXeXMxP2TjS7rM) is UP to date.
+Metadata for pool GP / SOL (9E2AwC5SzfPy3otpmHHVwGNoM2b2SLrJ9M1T5inXrCPE) is UP to date.
+Metadata for pool GP / USDC (9vNKzrrHAjqjuTGLjCBo9Ai4edMYgP9dsG4tFZ2hF251) is UP to date.
+Metadata for pool HNT / MOBILE (45zpzzpZquaVv4BAdXfzNbuba7DAXV32d1sTrUh5wcnW) is UP to date.
+Metadata for pool HNT / SOL (5qrvgpvr55Eo7c5bBcwopdiQ6TpvceiRm42yjHTbtDvc) is UP to date.
+Metadata for pool HNT / SOL (CSP4RmB6kBHkKGkyTnzt9zYYXDA8SbZ5Do5WfZcjqjE4) is UP to date.
+Metadata for pool HNT / USDC (8JwS5zosnLFT84S1NebSp1HS6aeaxviXYS7jBh9PQ8vp) is UP to date.
+Metadata for pool HONEY / JitoSOL (Ex7Sz5zdutJqfxL3cgTCcg3BT7mK7TKEpJDdM9xGHaWg) is UP to date.
+Metadata for pool HONEY / SOL (ENYEHSyduTbFN1xoSEGaLu7c1F8AqKucdscMuV5Yypy2) is UP to date.
+Metadata for pool INF / SOL (DxD41srN8Xk9QfYjdNXF9tTnP6qQxeF2bZF8s1eN62Pe) is UP to date.
+Metadata for pool INF / USDC (6wySwcwYkbqdQDnG9DgN6mez57nv8RnjcTmjxp36o9rZ) is UP to date.
+Metadata for pool IO / SOL (HB1fZ4PRzHZx5Mc4wizNXTAf298HRMNw1w1S6Y9P6jUP) is UP to date.
+Metadata for pool IOT / SOL (Cx6WqD4ViGZArdA3nPcneNBJxECftm36CZbtdb7jw9gP) is UP to date.
+Metadata for pool JLP / SOL (6a3m2EgFFKfsFuQtP4LJJXPcAe3TQYXNyHUjjZpUxYgd) is UP to date.
+Metadata for pool JLP / SOL (4GZWN1bzbkBXwxMhyj9aQd5ZfovoLNSheBtukKdMtNXS) is UP to date.
+Metadata for pool JLP / SOL (4Z1A4Wy4Qj1GDC98YXYCuEkibVsHXoB1pMsn2crqEgDF) is UP to date.
+Metadata for pool JLP / USDC (6NUiVmsNjsi4AfsMsEiaezsaV9N4N1ZrD4jEnuWNRvyb) is UP to date.
+Metadata for pool JLP / USDC (HD8i7qr1hd9ida6sN71RbkLxbWcbvZS4NA5CY6vfcDpj) is UP to date.
+Metadata for pool JLP / USDC (8Z8uy3xqUZqvpJ9QvJz7muz5aosL2VjGfJcEA99JK364) is UP to date.
+Metadata for pool JLP / WBTC (7rCWunLK7a2uLYog5e79Nxz5gfXptJaotjBuqv29JKz) is UP to date.
+Metadata for pool JTO / JitoSOL (G2FiE1yn9N9ZJx5e1E2LxxMnHvb1H3hCuHLPfKJ98smA) is UP to date.
+Metadata for pool JTO / SOL (2UhFnySoJi6c89aydGAGS7ZRemo2dbkFRhvSJqDX4gHJ) is UP to date.
+Metadata for pool JUP / SOL (C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz) is UP to date.
+Metadata for pool JUP / SOL (DkVN7RKTNjSSER5oyurf3vddQU2ZneSCYwXvpErvTCFA) is UP to date.
+Metadata for pool JUP / SOL (EgcgMpmGnGvU3Wa8T6gvmEN6pfSXXSxPTbYNEHVh8cZk) is UP to date.
+Metadata for pool JUP / USDC (4Ui9QdDNuUaAGqCPcDSp191QrixLzQiLxJ1Gnqvz3szP) is UP to date.
+Metadata for pool JUP / USDC (HrLmpzp8Nu5wkn9SGZYSS9Ms6deTvMgGc6BETp4161ZX) is UP to date.
+Metadata for pool JUP / USDC (GaRZqVJCpRMsM12ZTaP13zpaY6npHw2SeruZRWY2GGfn) is UP to date.
+Metadata for pool JUP / USDT (AyFajbj7QEi8CizFnfEjJn3vSUxgDjVKob4A8i618YJD) is UP to date.
+Metadata for pool JUP / bSOL (KdcztfHmVNRd5qY7oR7AdoNhcpHhjXKesK9JTBnNxwL) is UP to date.
+Metadata for pool JitoSOL / SOL (Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp) is UP to date.
+Metadata for pool JitoSOL / USDC (CxvWVYvvSymLWQNLqo61zjr1L86B4HpxoELbAAjxyb8H) is UP to date.
+Metadata for pool JupSOL / SOL (DtYKbQELgMZ3ihFUrCcCs9gy4djcUuhwgR7UpxVpP2Tg) is UP to date.
+Metadata for pool KMNO / SOL (5E2cHo3DQnRjB3zWHKUs86RPqCeLboMgKV9WjxFwUjhV) is UP to date.
+Metadata for pool LST / SOL (HJVNnnRj1xz25P9215AHQUvGXoS6MKtJASjgrrwD7GnP) is UP to date.
+Metadata for pool META / USDC (6dyEn3YXFkVzN5EKKJhQML8LXKFczQ8uY5cnsmqTTZo1) is UP to date.
+Metadata for pool MNDE / USDC (3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF) is UP to date.
+Metadata for pool MNDE / mSOL (BVXNG6BrL2Tn3NmppnMeXHjBHTaQSnSnLE99JKwZSWPg) is UP to date.
+Metadata for pool MOBILE / SOL (8S24t7whcEUn8VuBRXwritKRy27NfdSWLrRz5gwQXJ9f) is UP to date.
+Metadata for pool MOBILE / SOL (8EyL9NRDo8DfE5rywgnu8KFfm8P7MjYT8wjNUQyGwst8) is UP to date.
+Metadata for pool MYRS / SOL (GzCjqtkSemjoutLkicfqEk5J1RXMXRZ3uPi6VhG99Pkt) is UP to date.
+Metadata for pool MYRS / USDC (49qy7oiG4U47N9cSWNSGuzMZnujJDG83XjBU4ffsSMVU) is UP to date.
+Metadata for pool NEON / SOL (GUWM1arUyDnkMGCHvJu3yt1qomJ988utqC3dFN2AUCDT) is UP to date.
+Metadata for pool NOS / RENDER (66y7ViQ6mUyYa1sPDRrroPuAAuTeN1Cb4jKb6FEE5sR1) is UP to date.
+Metadata for pool NOS / SOL (3fCMZfWg48aUNYtdPm9KG4kmwseenr446fLAnafd2Uvj) is UP to date.
+Metadata for pool NYAN / USDC (57xTqqteaKhQuXYSzNxb6yqZKHw7vBfsj927DznumJGP) is UP to date.
+Metadata for pool ORCA / RAY (2ntusSb3dL7LBuTys6wG9pAyB3hWvaei1oa2MucX3Pct) is UP to date.
+Metadata for pool ORCA / SOL (Hxw77h9fEx598afiiZunwHaX3vYu9UskDk9EpPNZp1mG) is UP to date.
+Metadata for pool ORCA / SOL (HrvrhPtNq8JEGbi7dhMFuXy1Jms49nZrgC6GLjZ3cPyo) is UP to date.
+Metadata for pool ORCA / USDC (5Z66YYYaTmmx1R4mATAGLSc8aV4Vfy5tNdJQzk1GP9RF) is UP to date.
+Metadata for pool ORCA / USDC (FSBDeuLQ19Hse2jzhHfDwTvEoeRWD7UKK4BM1zgbV7pY) is UP to date.
+Metadata for pool PIP / SOL (CwNh2zfNcZt6bDmDvdztLAEJGxNW54rhC33Zki39AT6N) is UP to date.
+Metadata for pool POLIS / ATLAS (9HfmWsAwjZpCMCfqFZz3iLtd5K6vxFAY9SmM2XbtUVbZ) is UP to date.
+Metadata for pool POPCAT / $WIF (CyJG5PGm5hKrdnmszBUJQfjpSHVJqwUSYffXyTyTAyXv) is UP to date.
+Metadata for pool POPCAT / SOL (AHTTzwf3GmVMJdxWM8v2MSxyjZj8rQR6hyAC3g9477Yj) is UP to date.
+Metadata for pool POPCAT / SOL (FjpUZNi84CrL8NPBkqTsMyLkxMHJfAjDZiZ65zsEgXnR) is UP to date.
+Metadata for pool POPCAT / USDC (82vnbMa6vxm1a9TWy54s1dYRCYeGYZUPQnn7iVLBvmtx) is UP to date.
+Metadata for pool PRCL / JitoSOL (BWGP8CqKgg1rV6kYNFnbGbSYXxnYah4BQg1Sw1Nqy7hm) is UP to date.
+Metadata for pool PRCL / USDC (7AhWSjMiXtxgZ6tB39V65sF3Rguv6arkbLWyk2v9MxRV) is UP to date.
+Metadata for pool PVEai / SOL (7cu4pvo6jQMkT6oDwi1QeoYBjhNDmvSr1zGdoGKDGPab) is UP to date.
+Metadata for pool PYTH / SOL (8erNF5u3CHrqZJXtkfY8CjSxFYF1yqHmN8uDbAhk6tWM) is UP to date.
+Metadata for pool RAY / SOL (5sgXhG1c9VBceg6aVQguK3NnbPfHinERZj86As6zW5Be) is UP to date.
+Metadata for pool RAY / SOL (D3C5H4YU7rjhK7ePrGtK1Bhde4tfeiTr98axdZnA7tet) is UP to date.
+Metadata for pool RENDER / SOL (AmXR6YeshKfnx23gQpJkktUXoGb7cAXi5hWk3w2pw1a3) is UP to date.
+Metadata for pool RENDER / USDC (HAWNPF6UZ8YgWisd2gsECNSchdn3hQTEujsZtGxKM1MW) is UP to date.
+Metadata for pool SADCAT / SOL (HUFBLzQH2To6WMnMkAhzgSZwCj9efK3AupV4rNwgSeyR) is UP to date.
+Metadata for pool SAMO / SOL (4nAiqm5QiZiwh1sMpmuJJdVUH12Fst2kPPzApNfppQGd) is UP to date.
+Metadata for pool SHDW / SOL (6jwmmjnx3mDbA6QauSZ7DY8Z1B8wZncxXM1tJd2unpuS) is UP to date.
+Metadata for pool SOL / USDC (83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d) is UP to date.
+Metadata for pool SOL / USDC (Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE) is UP to date.
+Metadata for pool SOL / USDC (FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q) is UP to date.
+Metadata for pool SOL / USDC (7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm) is UP to date.
+Metadata for pool SOL / USDC (21gTfxAnhUDjJGZJDkTXctGFKT8TeiXx6pN1CEg9K1uW) is UP to date.
+Metadata for pool SOL / USDT (B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR) is UP to date.
+Metadata for pool SOL / USDT (AhhoxZDmsg2snm85vPjqzYzEYESoKfb4KmTj4HrBBNwY) is UP to date.
+Metadata for pool SOL / USDT (7RsgjGLoW1J2YH6wpcnxhN7QZXYxhFz8cf39Ledd8Dmd) is UP to date.
+Metadata for pool TAPS / SOL (BaC9aMbmsFLDXKfrPrH6Qhztcfp8NK2haC3yiZiLHwGp) is UP to date.
+Metadata for pool TM / SOL (BiYCZzTC1m9PnasT8XNy16fPxFmKtnUFS8eoayBQCT9Z) is UP to date.
+Metadata for pool TNSR / JitoSOL (7QkfgyWzWSw11z2FBiJhz8zAL9RwqSRvuXruDrJ3MFA1) is UP to date.
+Metadata for pool TNSR / USDC (GJLLHqhu7HnTZzwSBgqLsshdnDP5NwTnwkjTxQbGrf9Q) is UP to date.
+Metadata for pool TRUMP / SOL (7m4HiA2ARD1WN3QbrXqwq4ocPcvuaXHq7XqetGzRpCu8) is UP to date.
+Metadata for pool USDC / CHONKY (C5wdmudkJgTHiY7WF7MtygqB6GC3Mc7o8879Qe8sVk1j) is UP to date.
+Metadata for pool USDC / EURC (EpDiEa7KPoeVfnYfhPSoqsQ4KukGFuRZMfsuNY2rCqgt) is UP to date.
+Metadata for pool USDC / GOFX (Cst4B1VGkirLHFW5iVUYYL3uc4Wys5uQVVnvNaYPs4XA) is UP to date.
+Metadata for pool USDC / JitoSOL (5hWJUNTtEtKmKgDXpthJXXRRmJrz5vJ7uJzrUNVdrwLg) is UP to date.
+Metadata for pool USDC / JitoSOL (GgAqL1Lfs3zYZK6Gea9Bey5jmPbK8c4dmBbe5gPeYQEz) is UP to date.
+Metadata for pool USDC / PIP (8hzcovwXaP7ZPqbiDiT6CrknqzBp479Tw3kCfDYWseG6) is UP to date.
+Metadata for pool USDC / PYTH (CKyPqtvkenW8SRYsK4z5txZzCsCZFS2NTCrzLMmtXTPz) is UP to date.
+Metadata for pool USDC / SOL (HJPjoWUrhoZzkNfRpHuieeFk9WcZWjwy6PBjZ81ngndJ) is UP to date.
+Metadata for pool USDC / USDC (8hcwA1hr1bLGLHXBCadXWDgxsc1BTe4hAKPcQgTVNXL4) is UP to date.
+Metadata for pool USDC / USDT (4fuUiYxTQ6QCrdSq9ouBYcTM7bqSwYTSyLueGZLTy4T4) is UP to date.
+Metadata for pool USDH / SOL (AiZa55wSymdzwU9VDoWBrjizFjHdzDJFRNks2enP35sw) is UP to date.
+Metadata for pool USDH / USDC (Fvtf8VCjnkqbETA6KtyHYqHm26ut6w184Jqm4MQjPvv7) is UP to date.
+Metadata for pool USDH / USDT (963Do8Jw6aKaRB7YLorAGrqAJqhWqVGAStkewfne1SX5) is UP to date.
+Metadata for pool USDT / SOL (FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC) is UP to date.
+Metadata for pool USDT / SOL (5zVKUoZcQkFCGcRHVHiyGAJRrZj1by67pW3dmvguFvwd) is UP to date.
+Metadata for pool USDY / USDC (7riFsDxbskTqDtCSjev2jN9hyAJqeKmbWqgfiWD6ikUC) is UP to date.
+Metadata for pool VCHF / USDC (CsPcrAP4gL2JGJxRBLvw4fTBkGdpRDqiSSCfJ8WcTiUk) is UP to date.
+Metadata for pool VEUR / USDC (25q3qfHDpRq53HjPsxYEqnLg47rbMH5JiwTRY8HX9mP9) is UP to date.
+Metadata for pool W / JitoSOL (4m8mH8fBQ5DcYB3dum8SrauF8rCUUYHFEqEaqvKXJALt) is UP to date.
+Metadata for pool W / SOL (CwHuXNNkj5inuj2ZXaU1DtjA5Nxfoiy4nNoc1PQQJxTR) is UP to date.
+Metadata for pool WAVAX / SOL (3q1kUwCvG2jEvYczQcrQiLWEnAnfNSnvT6dCD14ruf6U) is UP to date.
+Metadata for pool WBNB / SOL (CmyuZJEnEoTnSD5mJLMtzLApocPNszZCWwkiEBbUD3ez) is UP to date.
+Metadata for pool WBNB / USDC (4gnf3XVk8A3vxFnnPtVqSFZa1SEPeXogvcetpZm6Q3pS) is UP to date.
+Metadata for pool WBTC / SOL (B5EwJVDuAauzUEEdwvbuXzbFFgEYnUqqS37TUM1c4PQA) is UP to date.
+Metadata for pool WBTC / SOL (CjZhHQnNUWdMtHzpJuxrPsK2hydeqKRyiMuzLQ3BMDkK) is UP to date.
+Metadata for pool WBTC / USDC (55BrDTCLWayM16GwrMEQU57o4PTm6ceF9wavSdNZcEiy) is UP to date.
+Metadata for pool WBTC / WETH (C3km5MDqBiA3eVBsy8r6D8AtTr4J8j2TpRTiXaydkiCx) is UP to date.
+Metadata for pool WEN / SOL (7BZzoP3QB2zK3R7WqRzjS5fpeeErgdy3HGzxXrN97aEY) is UP to date.
+Metadata for pool WETH / SOL (HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF) is UP to date.
+Metadata for pool WETH / USDC (AU971DrPyhhrpRnmEBp5pDTWL2ny7nofb5vYBjDJkR2E) is UP to date.
+Metadata for pool ZEUS / SOL (Dsxt7wUigQU5puH9nHjmfwnUenMycAgsFtrkfggLh8P1) is UP to date.
+Metadata for pool ZYN / SOL (6P1JbEwYEaXZBP9skhXpZZaaHqbXvd8VwdqNUsk9QkPU) is UP to date.
+Metadata for pool bSOL / JitoSOL (5snaYowgJDfuM1LPbTNUYHbgkKHtVVnzHiiLDWUV2hh8) is UP to date.
+Metadata for pool bSOL / SOL (8phK65jxmTPEN158xLgSr4oZvssw9SyTErpNZj3g7px4) is UP to date.
+Metadata for pool bSOL / VCHF (9Ef9cnck4rn1ZezSJvVUqHnA1TehGBiYw6Y2LTSuWEQW) is UP to date.
+Metadata for pool bSOL / VEUR (DVwtABQwmjx9DosuZWGkAv1kiibgAAPoaFJB3jTHfo2V) is UP to date.
+Metadata for pool bSOL / mSOL (CwZbEdMZdxjnPLcRGRz8PwuvA4tK4iBmS9YZrMvnrNJr) is UP to date.
+Metadata for pool bonkSOL / SOL (BQ5kRSSVu4v5T31fDSw3wMKcvMYWewrDVwZZrsJ3Vy7X) is UP to date.
+Metadata for pool mSOL / JitoSOL (HZsTF6VHdQy2W6cfEEqqpoTFKocx7Ch5c4TnWucXkAYv) is UP to date.
+Metadata for pool mSOL / JitoSOL (8dxebMPEZjYJvE5JfC9iicZt9pkATBLW1PFgRHi5wGGv) is UP to date.
+Metadata for pool mSOL / SOL (HQcY5n2zP6rW74fyFEhWeBd3LnJpBcZechkvJpmdb8cx) is UP to date.
+Metadata for pool mSOL / USDC (AiMZS5U3JMvpdvsr1KeaMiS354Z1DeSg5XjA4yYRxtFf) is UP to date.
+Metadata for pool mSOL / USDC (AqJ5JYNb7ApkJwvbuXxPnTtKeuizjvC1s2fkp382y9LC) is UP to date.
+Metadata for pool picoSOL / SOL (8YAauxoiTm4Y32zkbqjTtSW21psE8DoNos39pzhpJ25m) is UP to date.
+Metadata for pool sSOL / SOL (8X5tAh7EcafARDGhmLHxkiG5CousuB1yLtYsbuM9tD1T) is UP to date.
+Metadata for pool stSOL / SOL (2AEWSvUds1wsufnsDPCXjFsJCMJH5SNNm7fSF4kxys9a) is UP to date.
+Metadata for pool vSOL / SOL (AJuD76pBTNwCvD1wE9vBM8qwqKUHbj8BsUXzwWtuJ2We) is UP to date.
+Metadata for pool wfragSOL / JitoSOL (5xfKkFmhzNhHKTFUkh4PJmHSWB6LpRvhJcUMKzPP6md2) is UP to date.
+[2025-08-14 01:33:55 UTC] Pushing changes to GitHub...
+[master 599f4ff] Auto-update: 2025-08-14 01:34:10 UTC
+ 846 files changed, 113376 insertions(+), 158 deletions(-)
+ create mode 100644 api/__pycache__/main.cpython-311.pyc
+ delete mode 100644 api/__pycache__/main.cpython-312.pyc
+ create mode 100644 logs/metadata_updater_2025-08-14_01:00:01_UTC.log
+ create mode 100755 venv_izpi/bin/fastapi
+ create mode 100755 venv_izpi/bin/uvicorn
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types-0.7.0.dist-info/licenses/LICENSE
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types/__pycache__/test_cases.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/annotated_types/test_cases.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio-4.10.0.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio-4.10.0.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio-4.10.0.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio-4.10.0.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio-4.10.0.dist-info/entry_points.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio-4.10.0.dist-info/licenses/LICENSE
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio-4.10.0.dist-info/top_level.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__pycache__/from_thread.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__pycache__/lowlevel.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__pycache__/pytest_plugin.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__pycache__/to_interpreter.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__pycache__/to_process.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/__pycache__/to_thread.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_backends/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_backends/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_backends/__pycache__/_asyncio.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_backends/__pycache__/_trio.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_backends/_asyncio.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_backends/_trio.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_asyncio_selector_thread.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_contextmanagers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_eventloop.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_exceptions.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_fileio.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_resources.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_signals.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_sockets.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_streams.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_subprocesses.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_synchronization.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_tasks.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_tempfile.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_testing.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/__pycache__/_typedattr.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_asyncio_selector_thread.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_contextmanagers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_eventloop.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_exceptions.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_fileio.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_resources.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_signals.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_sockets.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_streams.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_subprocesses.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_synchronization.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_tasks.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_tempfile.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_testing.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/_core/_typedattr.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/_eventloop.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/_resources.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/_sockets.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/_streams.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/_subprocesses.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/_tasks.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/__pycache__/_testing.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/_eventloop.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/_resources.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/_sockets.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/_streams.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/_subprocesses.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/_tasks.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/abc/_testing.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/from_thread.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/lowlevel.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/pytest_plugin.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__pycache__/buffered.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__pycache__/file.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__pycache__/memory.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__pycache__/stapled.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__pycache__/text.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/__pycache__/tls.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/buffered.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/file.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/memory.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/stapled.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/text.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/streams/tls.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/to_interpreter.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/to_process.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/anyio/to_thread.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click-8.2.1.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click-8.2.1.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click-8.2.1.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click-8.2.1.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click-8.2.1.dist-info/licenses/LICENSE.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/_compat.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/_termui_impl.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/_textwrap.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/_winconsole.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/core.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/decorators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/exceptions.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/formatting.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/globals.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/parser.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/shell_completion.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/termui.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/testing.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/types.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/_compat.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/_termui_impl.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/_textwrap.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/_winconsole.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/core.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/decorators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/exceptions.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/formatting.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/globals.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/parser.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/shell_completion.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/termui.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/testing.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/types.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/click/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi-0.116.1.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi-0.116.1.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi-0.116.1.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi-0.116.1.dist-info/REQUESTED
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi-0.116.1.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi-0.116.1.dist-info/entry_points.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi-0.116.1.dist-info/licenses/LICENSE
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__main__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/__main__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/_compat.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/applications.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/background.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/cli.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/concurrency.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/datastructures.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/encoders.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/exception_handlers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/exceptions.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/logger.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/param_functions.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/params.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/requests.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/responses.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/routing.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/staticfiles.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/templating.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/testclient.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/types.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/__pycache__/websockets.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/_compat.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/applications.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/background.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/cli.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/concurrency.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/datastructures.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/dependencies/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/dependencies/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/dependencies/__pycache__/models.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/dependencies/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/dependencies/models.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/dependencies/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/encoders.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/exception_handlers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/exceptions.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/logger.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/__pycache__/cors.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/__pycache__/gzip.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/__pycache__/httpsredirect.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/__pycache__/trustedhost.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/cors.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/gzip.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/httpsredirect.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/trustedhost.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/middleware/wsgi.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/__pycache__/constants.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/__pycache__/docs.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/__pycache__/models.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/constants.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/docs.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/models.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/openapi/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/param_functions.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/params.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/requests.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/responses.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/routing.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__pycache__/api_key.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__pycache__/base.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__pycache__/http.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__pycache__/oauth2.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__pycache__/open_id_connect_url.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/api_key.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/base.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/http.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/oauth2.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/open_id_connect_url.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/security/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/staticfiles.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/templating.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/testclient.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/types.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/fastapi/websockets.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11-0.16.0.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11-0.16.0.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11-0.16.0.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11-0.16.0.dist-info/top_level.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_abnf.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_connection.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_events.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_headers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_readers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_receivebuffer.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_state.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_util.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_version.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/__pycache__/_writers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_abnf.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_connection.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_events.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_headers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_readers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_receivebuffer.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_state.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_util.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_version.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/_writers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/h11/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic-2.11.7.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic-2.11.7.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic-2.11.7.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic-2.11.7.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic-2.11.7.dist-info/licenses/LICENSE
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/_migration.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/alias_generators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/aliases.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/annotated_handlers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/class_validators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/color.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/config.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/dataclasses.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/datetime_parse.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/decorator.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/env_settings.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/error_wrappers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/errors.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/fields.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/functional_serializers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/functional_validators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/generics.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/json.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/json_schema.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/main.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/mypy.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/networks.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/parse.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/root_model.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/schema.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/tools.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/type_adapter.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/types.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/typing.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/validate_call_decorator.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/validators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/version.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/__pycache__/warnings.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_config.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_core_metadata.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_core_utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_dataclasses.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_decorators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_decorators_v1.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_discriminated_union.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_docs_extraction.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_fields.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_forward_ref.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_generate_schema.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_generics.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_git.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_import_utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_internal_dataclass.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_known_annotated_metadata.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_mock_val_ser.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_model_construction.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_namespace_utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_repr.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_schema_gather.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_schema_generation_shared.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_serializers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_signature.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_typing_extra.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_validate_call.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/__pycache__/_validators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_config.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_core_metadata.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_core_utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_dataclasses.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_decorators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_decorators_v1.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_discriminated_union.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_docs_extraction.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_fields.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_forward_ref.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_generate_schema.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_generics.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_git.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_import_utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_internal_dataclass.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_known_annotated_metadata.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_mock_val_ser.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_model_construction.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_namespace_utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_repr.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_schema_gather.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_schema_generation_shared.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_serializers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_signature.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_typing_extra.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_validate_call.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_internal/_validators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/_migration.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/alias_generators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/aliases.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/annotated_handlers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/class_validators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/color.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/config.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/dataclasses.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/datetime_parse.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/decorator.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/class_validators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/config.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/copy_internals.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/decorator.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/json.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/parse.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/__pycache__/tools.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/class_validators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/config.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/copy_internals.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/decorator.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/json.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/parse.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/deprecated/tools.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/env_settings.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/error_wrappers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/errors.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/experimental/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/experimental/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/experimental/__pycache__/arguments_schema.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/experimental/__pycache__/pipeline.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/experimental/arguments_schema.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/experimental/pipeline.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/fields.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/functional_serializers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/functional_validators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/generics.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/json.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/json_schema.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/main.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/mypy.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/networks.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/parse.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/plugin/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/plugin/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/plugin/__pycache__/_loader.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/plugin/__pycache__/_schema_validator.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/plugin/_loader.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/plugin/_schema_validator.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/root_model.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/schema.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/tools.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/type_adapter.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/types.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/typing.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/_hypothesis_plugin.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/annotated_types.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/class_validators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/color.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/config.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/dataclasses.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/datetime_parse.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/decorator.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/env_settings.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/error_wrappers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/errors.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/fields.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/generics.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/json.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/main.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/mypy.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/networks.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/parse.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/schema.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/tools.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/types.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/typing.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/validators.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/__pycache__/version.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/_hypothesis_plugin.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/annotated_types.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/class_validators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/color.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/config.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/dataclasses.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/datetime_parse.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/decorator.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/env_settings.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/error_wrappers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/errors.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/fields.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/generics.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/json.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/main.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/mypy.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/networks.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/parse.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/schema.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/tools.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/types.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/typing.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/validators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/v1/version.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/validate_call_decorator.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/validators.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/version.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic/warnings.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core-2.33.2.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core-2.33.2.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core-2.33.2.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core-2.33.2.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core-2.33.2.dist-info/licenses/LICENSE
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core/__pycache__/core_schema.cpython-311.pyc
+ create mode 100755 venv_izpi/lib/python3.11/site-packages/pydantic_core/_pydantic_core.cpython-311-aarch64-linux-gnu.so
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core/_pydantic_core.pyi
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core/core_schema.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/pydantic_core/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/LICENSE
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/LICENSE.APACHE2
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/LICENSE.MIT
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/top_level.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/__pycache__/_impl.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/__pycache__/_version.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/_impl.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/_tests/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/_tests/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/_tests/__pycache__/test_sniffio.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/_tests/test_sniffio.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/_version.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/sniffio/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette-0.47.2.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette-0.47.2.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette-0.47.2.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette-0.47.2.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette-0.47.2.dist-info/licenses/LICENSE.md
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/_exception_handler.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/_utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/applications.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/authentication.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/background.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/concurrency.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/config.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/convertors.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/datastructures.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/endpoints.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/exceptions.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/formparsers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/requests.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/responses.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/routing.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/schemas.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/staticfiles.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/status.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/templating.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/testclient.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/types.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/__pycache__/websockets.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/_exception_handler.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/_utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/applications.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/authentication.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/background.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/concurrency.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/config.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/convertors.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/datastructures.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/endpoints.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/exceptions.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/formparsers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/authentication.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/base.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/cors.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/errors.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/exceptions.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/gzip.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/httpsredirect.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/sessions.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/trustedhost.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/authentication.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/base.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/cors.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/errors.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/exceptions.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/gzip.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/httpsredirect.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/sessions.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/trustedhost.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/middleware/wsgi.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/requests.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/responses.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/routing.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/schemas.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/staticfiles.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/status.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/templating.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/testclient.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/types.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/starlette/websockets.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection-0.4.1.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection-0.4.1.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection-0.4.1.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection-0.4.1.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection-0.4.1.dist-info/licenses/LICENSE
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/__pycache__/introspection.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/__pycache__/typing_objects.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/introspection.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/typing_objects.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/typing_inspection/typing_objects.pyi
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn-0.35.0.dist-info/INSTALLER
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn-0.35.0.dist-info/METADATA
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn-0.35.0.dist-info/RECORD
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn-0.35.0.dist-info/REQUESTED
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn-0.35.0.dist-info/WHEEL
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn-0.35.0.dist-info/entry_points.txt
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn-0.35.0.dist-info/licenses/LICENSE.md
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__main__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/__main__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/_subprocess.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/_types.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/config.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/importer.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/logging.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/main.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/server.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/__pycache__/workers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/_subprocess.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/_types.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/config.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/importer.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/lifespan/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/lifespan/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/lifespan/__pycache__/off.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/lifespan/__pycache__/on.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/lifespan/off.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/lifespan/on.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/logging.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/__pycache__/asyncio.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/__pycache__/auto.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/__pycache__/uvloop.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/asyncio.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/auto.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/loops/uvloop.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/main.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/__pycache__/asgi2.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/__pycache__/message_logger.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/__pycache__/proxy_headers.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/asgi2.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/message_logger.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/middleware/wsgi.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/__pycache__/utils.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/__pycache__/auto.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/__pycache__/flow_control.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/__pycache__/h11_impl.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/__pycache__/httptools_impl.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/auto.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/flow_control.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/utils.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/__pycache__/auto.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/__pycache__/websockets_impl.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/__pycache__/websockets_sansio_impl.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/__pycache__/wsproto_impl.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/auto.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_impl.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/websockets_sansio_impl.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/protocols/websockets/wsproto_impl.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/py.typed
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/server.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/__init__.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/__pycache__/basereload.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/__pycache__/multiprocess.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/__pycache__/statreload.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/__pycache__/watchfilesreload.cpython-311.pyc
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/basereload.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/multiprocess.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/statreload.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/supervisors/watchfilesreload.py
+ create mode 100644 venv_izpi/lib/python3.11/site-packages/uvicorn/workers.py
+To https://github.com/asierhv/izpi.git
+   eeec56f..599f4ff  master -> master

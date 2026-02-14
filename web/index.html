@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8" />
+  <title>Pool Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pool Data Viewer</h1>
+    <div class="input-group">
+      <input type="text" id="addressInput" placeholder="Enter pool address..." />
+      <button id="loadBtn">Load</button>
+    </div>
+    <div id="chart"></div>
+    <div id="info"></div>
+  </div>
+</body>
+</html>
