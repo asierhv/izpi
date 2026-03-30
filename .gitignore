@@ -1,5 +1,6 @@
-__pycache__/
-*.pyc
-keys/
-images/*.psd
-venvs/
+**/__pycache__/
+**/*.pyc
+**/keys/
+**/.env
+**/images/*.psd
+**/venvs/
